@@ -1,24 +1,48 @@
+---
+title: Home
+layout: default
+
+subtitle: We're a group of <b>high schoolers</b> teaching peers about <b>science communication</b> and <b>cross-disciplinary</b> fields that support STEM.
+header_buttons:
+  - name: Learn More
+    url: /about
+  - name: Join the Team
+    url: /join
+
+first_row_image_url: '/img/first-event-gabi-observing.jpg'
+first_row_headline: Make the complex compelling
+first_row_text: Science & Us
+first_row_buttons:
+  - name: Register
+    url: /register
+  - name: Sponsor
+    url: /sponsor
+---
 <header>
 			<div class="overlay">
-				<h1>Science & Us</h1>
-				<h3>We're a group of <b>high schoolers</b> teaching peers about <b>science communication</b> and <b>cross-disciplinary</b> fields that support STEM.</h3>
+				<h1>{{ site.title }}</h1>
+				<h3>{{ page.subtitle }}</h3>
 
-				<a href="" class="button">Learn More</a>
-				<a href="" class="button">Join the Team</a>
+				{% for button in page.header_buttons %}
+				<a class="button" href="{{ button.url | prepend:site.url }}">{{ button.name }}</a>
+				{% endfor %}
 			</div>
 		</header>
 
 		<section>
 			<div class="row">
 				<div class="half">
-					<img src="{{ '/img/first-event-gabi-observing.jpg' | prepend:site.url }}" alt="">
+					<img src="{{ page.first_row_image_url | prepend:site.url }}" alt="">
 				</div>
 			
 				<div class="half headline">
-					<h2>Make the complex compelling</h2>
+					<h2>{{ page.first_row_headline }}</h2>
 
-					<a href="" class="button">Register</a>
-					<a href="" class="button">Sponsor</a>
+					<p>{{ page.first_row_text }}</p>
+
+					{% for button in page.first_row_buttons %}
+					<a class="button" href="{{ button.url | prepend:site.url }}">{{ button.name }}</a>
+					{% endfor %}
 				</div>
 			</div>			
 		</section>
