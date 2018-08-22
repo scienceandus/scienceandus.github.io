@@ -1,0 +1,24 @@
+title: Science & Us
+# tagline and description for meta tags
+tagline: Making the Complex Compelling
+description: We're a group of high schoolers teaching peers about science communication and cross-disciplinary fields that support STEM.
+url: https://scienceandus.org # no slash means that all relative URLs that prepend site.url must begin with a slash
+
+permalink: /:title # clean URLs, e.g. /about as opposed to /about.html
+
+# notes:
+# - order of links in this file determines order on website
+# - all relative URLs should be appended to site.url, regardless of source file directory
+
+# homepage links
+links:
+  - name: About
+    url: /about
+  - name: Event
+    url: /event
+  - name: Blog
+    url: /blog
+  - name: Sponsor
+    url: /sponsor
+  - name: In the Community
+    url: /community

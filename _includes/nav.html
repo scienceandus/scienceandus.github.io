@@ -1,0 +1,7 @@
+<nav>
+				<ul>
+					{% for link in site.links %}
+					<li><a href="{{ link.url }}">{{ link.name }}</a></li>
+					{% endfor %}
+				</ul>
+			</nav>
