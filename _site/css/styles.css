@@ -106,7 +106,7 @@ nav a:hover, nav a:active {
 }
 
 section {
-	margin: 0 auto 5rem;
+	margin: 0 auto 2rem;
 	width: 80%;
 }
 
@@ -117,26 +117,15 @@ section {
 	vertical-align: top;
 }
 
-.half {
-	width: 49%;
-}
-
-.third {
-	width: 33.3%;
-}
-
+.half { width: 50% }
+.third { width: 33.3% }
 .fourth { width: 25%; }
-.two-thirds { width: 66.7% }
 
-.row { display: table; }
-
-img {
-	max-width: 100%;
-}
+img { max-width: 100% }
 
 .headline {
 	background: #eee;
-	padding: 3rem;
+	padding: 2rem;
 }
 
 /* ----------------------------- BUTTON-LIKE THINGS  ----------------------------- */
@@ -174,6 +163,11 @@ p {
 	margin: 1rem 0;
 }
 
+section li {
+	font: 1.1rem/120% Libre Franklin, Arial, sans-serif;
+	margin: .25rem 0 .25rem 2rem;
+}
+
 .flex {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -183,11 +177,27 @@ p {
 	flex-wrap: wrap;
 }
 
+.bio {
+	background: linear-gradient(rgba(20,20,20,.8), rgba(20,20,20,1));
+	color: #eee;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding: .35rem 1rem;
+}
+
+.person {
+	position: relative;
+}
+
+.person img { display: block; }
+
 @media (max-width: 1100px) {
 	h1 { font-size: 4rem; }
 	h3 { font-size: 1.75rem; max-width: 80%; }
 	header .overlay { padding: 20% 5% 22.5% }
 	nav a, .button { font-size: 1.25rem; }
+	section { width: 92.5% }
 }
 
 @media (max-width: 800px) {
@@ -225,4 +235,7 @@ p {
 	.topnav.responsive li {
 		display: block;
 	}
+
+	.half, .third { width: 100% }
+	.fourth { width: 50% }
 }
