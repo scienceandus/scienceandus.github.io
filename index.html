@@ -105,7 +105,7 @@ speakers:
 			</div>
 		</section>
 
-		<section>
+		<section id="event">
 			<div class="flex">
 				<div class="half headline">
 					<h2>{{ page.section_two_left_headline }}</h2>
@@ -144,7 +144,7 @@ speakers:
 
 			<div class="headline half" id="sponsors">
 				<h2>Summer 2018 Workshop Sponsors</h2>
-				<img src="{{ '/img/SITN.png' | prepend:site.url }}" alt="Science in the News Harvard University">
+				<a href="http://sitn.hms.harvard.edu/"><img src="{{ '/img/SITN.png' | prepend:site.url }}" alt="Science in the News Harvard University"></a>
 				<img src="{{ '/img/stickeryou.png' | prepend:site.url }}" alt="StickerYou">
 			</div>
 		</section>
@@ -164,7 +164,7 @@ speakers:
           <p>{{ person.bio }}</p>
         </main>
         <footer class="modal__footer">
-          <button class="modal__btn" data-micromodal-close aria-label="Close this dialog window">Close</button>
+          <button class="button" data-micromodal-close aria-label="Close this dialog window">Close</button>
         </footer>
       </div>
     </div>
@@ -172,17 +172,4 @@ speakers:
   {% endfor %}
 
   <script src="{{ '/js/micromodal.min.js' | prepend:site.url }}"></script>
-<script>
-	MicroModal.init();
-
-	document.getElementById("nav-icon").addEventListener("click", toggleNav)
-
-	function toggleNav() {
-		var x = document.getElementById("global-nav");
-		if (x.className == "topnav") {
-			x.className += " responsive";
-		} else {
-			x.className = "topnav";
-		}
-	}
-</script>
+  <script src="{{ '/js/smooth-scroll.js' | prepend:site.url }}"></script>

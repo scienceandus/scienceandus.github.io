@@ -15,8 +15,9 @@ links:
   - name: About
     url: /about
   - name: Event
-    url: /event
-  - name: Blog
-    url: /blog
+    url: /#event
   - name: In the Community
     url: /community
+
+sass:
+  style: compressed
