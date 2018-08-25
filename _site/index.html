@@ -24,7 +24,7 @@
 	</head>
 
 	<body>
-		<nav>
+		<!--<nav>
 				<ul>
 					
 					<li><a href="/about">About</a></li>
@@ -33,12 +33,25 @@
 					
 					<li><a href="/blog">Blog</a></li>
 					
-					<li><a href="/sponsor">Sponsor</a></li>
-					
 					<li><a href="/community">In the Community</a></li>
 					
 				</ul>
-			</nav>
+			</nav>-->
+
+<nav class="topnav" id="global-nav">
+
+	
+	<li><a href="/about">About</a></li>
+	
+	<li><a href="/event">Event</a></li>
+	
+	<li><a href="/blog">Blog</a></li>
+	
+	<li><a href="/community">In the Community</a></li>
+	
+
+	<a href="javascript:void(0)" id="nav-icon">☰</a>
+</nav>
 
 
 <header>
@@ -46,30 +59,101 @@
 				<h1>Science & Us</h1>
 				<h3>We're a group of <b>high schoolers</b> teaching peers about <b>science communication</b> and <b>cross-disciplinary</b> fields that support STEM.</h3>
 
-				
-				<a class="button" href="http://localhost:4000/about">Learn More</a>
-				
-				<a class="button" href="http://localhost:4000/join">Join the Team</a>
-				
+				<div class="row-of-buttons">
+					
+					<a class="button" href="http://localhost:4000/about">Learn More</a>
+					
+					<a class="button button-primary" href="http://localhost:4000/join">Join the Team</a>
+					
+				</div>
 			</div>
 		</header>
 
-		<section>
-			<div class="row">
+		<section id="first-section">
+			<div class="row flex">
 				<div class="half">
-					<img src="http://localhost:4000/img/first-event-gabi-observing.jpg" alt="">
+					<img src="http://localhost:4000/img/first-event-students-laughing.jpg" alt="">
 				</div>
 			
 				<div class="half headline">
-					<h2>Make the complex compelling</h2>
+					<h2>Making the complex compelling</h2>
 
-					<p>Science & Us</p>
+					<p><p>Net neutrality, environmental pollution, social media privacy—all those issues involve science, and affect much more than just scientists.</p>
+<p>Understanding the fundamentals of STEM is crucial, yet many view it as intimidating or irrelevant. <b>Science communication—explaining complex topics in engaging, clear ways</b>—can bridge this gap.</p>
+<p>Science & Us enables STEM-oriented students to better explain their passions to non-experts, and teaches them about interdisciplinary careers, like science media and policy, that are rarely mentioned in school.</p>
+</p>
 
 					
-					<a class="button" href="http://localhost:4000/register">Register</a>
-					
-					<a class="button" href="http://localhost:4000/sponsor">Sponsor</a>
+					<a class="button button-primary" href="http://localhost:4000/about">Learn More</a>
 					
 				</div>
-			</div>			
+			</div>
 		</section>
+
+		<section>
+			<div class="row flex">
+				<div class="half headline">
+					<h2>Science & Us Conference</h2>
+				</div>
+
+				
+				<div class="person fourth">
+					<img src="http://localhost:4000/img/gabi-serratomarks.jpg" alt="Gabriela Serrato Marks">
+					<h4>Gabriela Serrato Marks</h4>
+				</div>
+				
+				<div class="person fourth">
+					<img src="http://localhost:4000/img/paul-berkman.jpg" alt="Paul Arthur Berkman">
+					<h4>Paul Arthur Berkman</h4>
+				</div>
+				
+				<div class="person fourth">
+					<img src="http://localhost:4000/img/jeffery-delviscio.png" alt="Jeffery DelViscio">
+					<h4>Jeffery DelViscio</h4>
+				</div>
+				
+				<div class="person fourth">
+					<img src="http://localhost:4000/img/weisun-leong.jpg" alt="Wei Sun Leong">
+					<h4>Wei Sun Leong</h4>
+				</div>
+				
+				<div class="person fourth">
+					<img src="http://localhost:4000/img/dana-boebinger.png" alt="Dana Boebinger">
+					<h4>Dana Boebinger</h4>
+				</div>
+				
+				<div class="person fourth">
+					<img src="http://localhost:4000/img/alyson-warr.png" alt="Alyson Warr">
+					<h4>Alyson Warr</h4>
+				</div>
+				
+				<div class="person fourth">
+					<img src="http://localhost:4000/img/kelsey-tyssowski.jpg" alt="Kelsey Tyssowski">
+					<h4>Kelsey Tyssowski</h4>
+				</div>
+				
+				<div class="person fourth">
+					<img src="http://localhost:4000/img/daina-bouquin.jpg" alt="Daina Bouquin">
+					<h4>Daina Bouquin</h4>
+				</div>
+				
+				<div class="person fourth">
+					<img src="http://localhost:4000/img/mariah-tinger.jpg" alt="Mariah Tinger">
+					<h4>Mariah Tinger</h4>
+				</div>
+				
+			</div>
+		</section>
+
+<script>
+	document.getElementById("nav-icon").addEventListener("click", toggleNav)
+
+	function toggleNav() {
+		var x = document.getElementById("global-nav");
+		if (x.className == "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+</script>

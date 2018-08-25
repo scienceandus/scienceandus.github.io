@@ -15,12 +15,12 @@ header {
 
 header .overlay {
 	background: linear-gradient(to bottom right, rgba(102, 119, 153, .8), rgba(0, 0, 51, .8));
-	padding: 11% 10% 15%;
+	padding: 12.5% 10% 15%;
 	text-align: center;
 }
 
 h1 {
-	font: 700 5.5rem/100% Libre Franklin;
+	font: 700 5rem/100% Libre Franklin;
 	letter-spacing: -.008em;
 	display: inline-block;
 	color: #fff;
@@ -47,10 +47,14 @@ h1:after {
 }
 
 h3 {
-	font: 300 2.2rem/140% Libre Franklin;
+	font: 300 2rem/140% Libre Franklin, Helvetica, sans-serif;
 	color: #eee;
-	max-width: 50%;
+	max-width: 60%;
 	margin: 0 auto 2.5rem;
+}
+
+h2 {
+	font: 700 2rem/140% Libre Franklin, Helvetica, sans-serif;
 }
 
 b {
@@ -61,8 +65,9 @@ nav {
 	position: fixed;
 	text-align: center;
 	width: 100%;
-	background: linear-gradient(to bottom, rgba(0,0,50,.75), rgba(0,0,50,.25) 60%, transparent);
+	background: linear-gradient(to bottom, rgba(0,0,50,.75), rgba(0,0,50,.5) 60%, transparent);
 	z-index: 100;
+	padding-top: 1.5em;
 }
 
 nav li {
@@ -70,26 +75,44 @@ nav li {
 	list-style: none;
 }
 
-nav a {
+nav a, .button {
 	display: block;
-	font: 700 1.6rem/100% Libre Franklin;
+	font: 300 1.4rem/100% Libre Franklin;
+	letter-spacing: -.01em;
+	text-transform: uppercase;
 	text-decoration: none;
-	color: #eee;
-	padding: 1.25em 1em;
-	transition: .05s;
+	color: #ddd;
+	border-bottom: 1px solid transparent;
+	transition: .15s;
 }
 
+nav a {
+	padding: .3em .15em .25em;
+	margin: 1.5em 1em 1.25em;
+}
+
+.button {
+	padding: 0 .1em .25em;
+	margin: 1.5em 1em 1.25em;
+}
+
+nav a:first-child, .button:first-child { margin: 0 1em 0 0 }
+nav a:last-child, .button:last-child { margin: 0 1em 0 0 }
+
 nav a:hover, nav a:active {
-	color: #bbb;
+	color: #fff;
+	border-bottom: 1px solid #fc3;
+	background: rgba(50,50,50,.75);
 }
 
 section {
-	margin: -7.5% auto 0;
+	margin: 0 auto 5rem;
 	width: 80%;
-	display: table;
 }
 
-.half, .third {
+#first-section { margin-top: -7.5%; }
+
+.half, .third, .fourth {
 	display: table-cell;
 	vertical-align: top;
 }
@@ -99,47 +122,107 @@ section {
 }
 
 .third {
-	width: 33%;
-	display: inline-block;
-	padding-right: 1rem;
+	width: 33.3%;
 }
 
-.row { margin: .75rem 0 }
+.fourth { width: 25%; }
+.two-thirds { width: 66.7% }
+
+.row { display: table; }
 
 img {
 	max-width: 100%;
 }
 
 .headline {
-	background: #ffe;
-	padding: 5%;
+	background: #eee;
+	padding: 3rem;
 }
 
 /* ----------------------------- BUTTON-LIKE THINGS  ----------------------------- */
 .button {
   display: inline-block;
-  padding: .6em 1.1em;
-  color: #bbb;
   text-align: center;
-  font-size: 1.25rem;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  text-decoration: none;
-  background-color: rgba(0,0,0,.25);
-  border: 1px solid #bbb;
+  padding: .75em .9em .65em;
+  background-color: #333;
+  border: 1px solid #ccc;
   cursor: pointer;
   box-sizing: border-box;
   transition: .15s;
+  font-weight: 700;
 }
 .button:hover, .button:focus {
-  color: #eee;
-  border-color: #eee;
+  color: #fff;
+  border-color: #fff;
+  background-color: #222;
   outline: 0; }
 .button.button-primary {
-  color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  color: #333;
+  background-color: #fc3;
+  border-color: #fc3; }
 .button.button-primary:hover, .button.button-primary:focus {
-  color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  color: #111;
+  background-color: #fa0;
+  border-color: #fa0; }
+
+#nav-icon {
+	display: none;
+}
+
+p {
+	font: 1.1rem/140% Libre Franklin, Arial, sans-serif;
+	margin: 1rem 0;
+}
+
+.flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 1100px) {
+	h1 { font-size: 4rem; }
+	h3 { font-size: 1.75rem; max-width: 80%; }
+	header .overlay { padding: 20% 5% 22.5% }
+	nav a, .button { font-size: 1.25rem; }
+}
+
+@media (max-width: 800px) {
+	h1 { font-size: 3rem }
+	h3 { font-size: 1.25rem }
+	header .overlay { padding: 25% 2.5% 15% }
+	nav a, .button { font-size: 1.1rem; }
+
+	.topnav a { display: none; }
+	#nav-icon {
+		float: right;
+		display: block;
+	}
+
+	.topnav.responsive {
+		position: relative;
+		background-color: #333;
+		overflow: hidden;
+		padding-bottom: 1em;
+	}
+	#nav-icon {
+		position: absolute;
+		right: 25px;
+		top: 25px;
+		padding: 0;
+		margin: 0;
+		border: none;
+		font-size: 2rem;
+	}
+	.topnav.responsive a {
+		display: block;
+		text-align: left;
+		margin: 0 1em .1em;
+	}
+	.topnav.responsive li {
+		display: block;
+	}
+}

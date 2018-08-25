@@ -1,7 +1,16 @@
-<nav>
+<!--<nav>
 				<ul>
 					{% for link in site.links %}
 					<li><a href="{{ link.url }}">{{ link.name }}</a></li>
 					{% endfor %}
 				</ul>
-			</nav>
+			</nav>-->
+
+<nav class="topnav" id="global-nav">
+
+	{% for link in site.links %}
+	<li><a href="{{ link.url }}">{{ link.name }}</a></li>
+	{% endfor %}
+
+	<a href="javascript:void(0)" id="nav-icon">☰</a>
+</nav>

@@ -8,29 +8,56 @@ header_buttons:
     url: /about
   - name: Join the Team
     url: /join
+    primary: true
 
-first_row_image_url: '/img/first-event-gabi-observing.jpg'
-first_row_headline: Make the complex compelling
-first_row_text: Science & Us
+first_row_image_url: '/img/first-event-students-laughing.jpg'
+first_row_headline: Making the complex compelling
+first_row_text: >
+  <p>Net neutrality, environmental pollution, social media privacy—all those issues involve science, and affect much more than just scientists.</p>
+
+  <p>Understanding the fundamentals of STEM is crucial, yet many view it as intimidating or irrelevant. <b>Science communication—explaining complex topics in engaging, clear ways</b>—can bridge this gap.</p>
+
+  <p>Science & Us enables STEM-oriented students to better explain their passions to non-experts, and teaches them about interdisciplinary careers, like science media and policy, that are rarely mentioned in school.</p>
 first_row_buttons:
-  - name: Register
-    url: /register
-  - name: Sponsor
-    url: /sponsor
+  - name: Learn More
+    url: /about
+    primary: true
+
+speakers:
+  - name: Gabriela Serrato Marks
+    photo_url: '/img/gabi-serratomarks.jpg'
+  - name: Paul Arthur Berkman
+    photo_url: '/img/paul-berkman.jpg'
+  - name: Jeffery DelViscio
+    photo_url: '/img/jeffery-delviscio.png'
+  - name: Wei Sun Leong
+    photo_url: '/img/weisun-leong.jpg'
+  - name: Dana Boebinger
+    photo_url: '/img/dana-boebinger.png'
+  - name: Alyson Warr
+    photo_url: '/img/alyson-warr.png'
+  - name: Kelsey Tyssowski
+    photo_url: '/img/kelsey-tyssowski.jpg'
+  - name: Daina Bouquin
+    photo_url: '/img/daina-bouquin.jpg'
+  - name: Mariah Tinger
+    photo_url: '/img/mariah-tinger.jpg'
 ---
 <header>
 			<div class="overlay">
 				<h1>{{ site.title }}</h1>
 				<h3>{{ page.subtitle }}</h3>
 
-				{% for button in page.header_buttons %}
-				<a class="button" href="{{ button.url | prepend:site.url }}">{{ button.name }}</a>
-				{% endfor %}
+				<div class="row-of-buttons">
+					{% for button in page.header_buttons %}
+					<a class="button{% if button.primary == true %} button-primary{% endif %}" href="{{ button.url | prepend:site.url }}">{{ button.name }}</a>
+					{% endfor %}
+				</div>
 			</div>
 		</header>
 
-		<section>
-			<div class="row">
+		<section id="first-section">
+			<div class="row flex">
 				<div class="half">
 					<img src="{{ page.first_row_image_url | prepend:site.url }}" alt="">
 				</div>
@@ -41,8 +68,36 @@ first_row_buttons:
 					<p>{{ page.first_row_text }}</p>
 
 					{% for button in page.first_row_buttons %}
-					<a class="button" href="{{ button.url | prepend:site.url }}">{{ button.name }}</a>
+					<a class="button{% if button.primary == true %} button-primary{% endif %}" href="{{ button.url | prepend:site.url }}">{{ button.name }}</a>
 					{% endfor %}
 				</div>
-			</div>			
+			</div>
 		</section>
+
+		<section>
+			<div class="row flex">
+				<div class="half headline">
+					<h2>Science & Us Conference</h2>
+				</div>
+
+				{% for person in page.speakers %}
+				<div class="person fourth">
+					<img src="{{ person.photo_url | prepend:site.url }}" alt="{{ person.name }}">
+					<h4>{{ person.name }}</h4>
+				</div>
+				{% endfor %}
+			</div>
+		</section>
+
+<script>
+	document.getElementById("nav-icon").addEventListener("click", toggleNav)
+
+	function toggleNav() {
+		var x = document.getElementById("global-nav");
+		if (x.className == "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+</script>
