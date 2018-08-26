@@ -1,11 +1,10 @@
 ---
 ---
-
 // VARIABLES
 
 $desat-blue: #679;
-$dark-blue: #003;
-$light-yellow: #fc6;
+$dark-blue: #101023;
+$light-yellow: #ffc;
 $bright-yellow: #fc3;
 $font-stack: Libre Franklin, Helvetica, sans-serif;
 
@@ -16,7 +15,13 @@ $font-stack: Libre Franklin, Helvetica, sans-serif;
 			animation: $property;
 }
 
-// RESET
+.flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
 
 * {
 	margin: 0;
@@ -26,106 +31,24 @@ $font-stack: Libre Franklin, Helvetica, sans-serif;
 	box-sizing: border-box;
 }
 
-// GLOBAL
-
-body { background: #ddd; }
-
-nav a, .button {
-	display: block;
-	font: 300 1.4rem/100% $font-stack;
-	letter-spacing: -.01em;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #ddd;
-	transition: .15s;
-}
-
-.button {
-	padding: 0 .1em .25em;
-	margin: 1.5em 1em 1.25em;
-}
-
-nav a:first-child, .button:first-child { margin: 0 1em 0 0 }
-nav a:last-child, .button:last-child { margin: 0 1em 0 0 }
-
-.button {
-	display: inline-block;
-	text-align: center;
-	padding: .75em .9em .65em;
-	background-color: #333;
-	border: 1px solid #ccc;
-	cursor: pointer;
-	box-sizing: border-box;
-	transition: .15s;
-	font-weight: 700;
-}
-.button:hover, .button:focus {
-	color: #fff;
-	border-color: #fff;
-	background-color: #222;
-	outline: 0;
-}
-.button.button-primary {
-	color: #333;
-	background-color: $bright-yellow;
-	border-color: $bright-yellow;
-}
-.button.button-primary:hover, .button.button-primary:focus {
-	color: #111;
-	background-color: $light-yellow;
-	border-color: $light-yellow;
-}
-
-// NAV
-
-nav {
-	position: fixed;
-	text-align: center;
-	width: 100%;
-	background: linear-gradient(to bottom, rgba($dark-blue, .75), rgba($dark-blue, .5) 60%, transparent);
-	z-index: 100;
-	padding-top: 1.5em;
-
-	li {
-		display: inline-block;
-		list-style: none;
-	}
-
-	a {
-		padding: .3em .15em .25em;
-		margin: 1.5em 1em 1.25em;
-	}
-
-	a:hover, a:active {
-		color: #fff;
-		background: $desat-blue;
-	}
-}
-#nav-icon { display: none }
-
-// HERO
+.container { max-width: 1200px }
+.row { margin-top: 5rem }
+.row:last-of-type { margin-bottom: 5rem }
 
 #hero {
-	background-image: url({{ '/img/first-event-girls-outside.jpg' | prepend:site.url }});
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
 
-	.overlay {
-		background: linear-gradient(to bottom right, rgba($desat-blue, .8), rgba($dark-blue, .8));
-		padding: 12.5% 10% 15%;
-		text-align: center;
-	}
+#hero .overlay {
+	background: linear-gradient(to bottom right, rgba($desat-blue, .5), rgba($dark-blue, 1));
+	padding: 10% 5%;
 }
 
 h1 {
-	font: 700 5rem/100% $font-stack;
 	letter-spacing: -.008em;
 	display: inline-block;
-	color: #fff;
-	margin-bottom: .4em;
 	z-index: 1;
 	position: relative;
 }
@@ -145,128 +68,63 @@ h1:after {
 	100% { width: 100%; }
 }
 
-h3 {
-	font: 300 2rem/140% $font-stack;
-	color: #eee;
-	max-width: 60%;
-	margin: 0 auto 2.5rem;
+nav {
+	width: 100%;
+	padding: .7rem 2rem;
+	position: fixed;
+	z-index: 100;
+	text-align: right;
+	background: rgba($dark-blue, .5);
+	transition: .15s;
+}
+nav h5 { margin: 0 }
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	padding: .25rem;
+	color: #fff;
+}
+nav a:hover, nav a:active { color: $light-yellow; }
+nav a:first-child { float: left }
+nav a:not(:first-of-type) { margin-left: 2rem }
+#nav-icon { display: none }
+
+.nav-bg, nav:hover, nav:active {
+	background: rgba($dark-blue, .8);
 }
 
-// SECTIONS
+.person { overflow: hidden; }
 
-section {
-	margin: 0 auto 2rem;
-	width: 80%;
-}
-
-.flex {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-#first-section { margin-top: -7.5% }
-
-.half { width: 50% }
-.third { width: 33.3% }
-.fourth { width: 25%; }
-
-img { max-width: 100% }
-
-.headline {
-	background: #eee;
-	padding: 2rem;
-}
-
-h2 {
-	font: 700 2rem/120% $font-stack;
-}
-
-p {
-	font: 1.1rem/140% $font-stack;
-	margin: 1rem 0;
-}
-
-section li {
-	font: 1.1rem/120% $font-stack;
-	margin: .25rem 0 .25rem 2rem;
-}
-
-.person {
-	position: relative;
-	.bio {
-		background: linear-gradient(rgba(20,20,20,.8), rgba(20,20,20,1));
-		color: #eee;
-		width: 100%;
-		position: absolute;
-		bottom: 0;
-		padding: .35rem 1rem;
-	}
-	img { display: block }
-	a {
-		text-decoration: none;
-		color: #fff;
-		padding: .15em;
-		transition: .1s;
-	}
-	a:hover, a:active {
-		display: inline;
-		background: $bright-yellow;
-		color: #111;
-	}
-}
-
-p.highlight {
-	display: inline;
-	background: #fc3;
-}
-
-#sponsors img {
-	width: 250px;
-	padding: .75rem;
-}
-
-// MEDIA QUERIES
-
-@media (max-width: 1100px) {
-	h1 { font-size: 4rem; }
-	h3 { font-size: 1.75rem; max-width: 80%; }
-	header .overlay { padding: 20% 5% 22.5% }
-	nav a, .button { font-size: 1.25rem; }
-	section { width: 92.5% }
+.bio {
+	width: 100%;
+	margin: 0;
+	padding: 1rem 1rem .75rem;
+	font-size: 1.8rem;
+	font-weight: 400;
+	line-height: 110%;
+	background: rgba($dark-blue, .75);
+	color: #fff;
 }
 
 @media (max-width: 800px) {
-	h1 { font-size: 3rem }
-	h2 { font-size: 1.75rem; line-height: 120%; }
-	h3 { font-size: 1.25rem }
-	header .overlay { padding: 25% 2.5% 15% }
-	nav a, .button { font-size: 1.1rem; }
-	.half, .third { width: 100% }
-	.fourth { width: 50% }
-
 	.topnav a { display: none; }
-	#nav-icon {
-		float: right;
-		display: block;
-	}
-
+	nav { padding: 0 }
 	.topnav.responsive {
 		background-color: #333;
-		overflow: hidden;
-		padding-bottom: 1em;
+		overflow: auto;
+		padding: 1em 0;
 	}
 	#nav-icon {
 		position: absolute;
-		right: 25px;
-		top: 25px;
+		display: block;
+		right: 17.5px;
+		top: 20px;
 		padding: 0;
 		margin: 0;
 		border: none;
-		font-size: 2rem;
+		font-size: 2.5rem;
+		padding: .05em .35em .04em;
+		background: rgba($dark-blue, .75);
 	}
 	.topnav.responsive a {
 		display: block;
@@ -276,9 +134,9 @@ p.highlight {
 	.topnav.responsive li {
 		display: block;
 	}
+	nav a:first-child { float: none }
 }
 
-// MODALS
 .modal__overlay {
 	position: fixed;
 	top: 0;
@@ -375,3 +233,16 @@ p.highlight {
 .micromodal-slide .modal__overlay {
 	will-change: transform;
 }
+
+.custom-one-fourth { height: 190px; position: relative; }
+.custom-one-fourth .bio { position: absolute; bottom: 0; }
+
+.page-section {
+	padding-top: 10rem;
+	padding-bottom: 5rem;
+	max-width: 960px;
+}
+li { margin: .15rem 0 .15rem 2rem }
+ul ul, ol ul, ol ol { margin: 0 0 0 1rem }
+img { max-width: 100% }
+li p { display: inline-block }

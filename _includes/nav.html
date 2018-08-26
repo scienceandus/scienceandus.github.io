@@ -1,6 +1,7 @@
 <nav class="topnav" id="global-nav">
+	<a href="{{ site.url }}"><h5>Science & Us</h5></a>
 	{% for link in site.links %}
-	<li><a href="{{ link.url }}">{{ link.name }}</a></li>
+	<a href="{{ link.url }}"><h5>{{ link.name }}</h5></a>
 	{% endfor %}
 	<a href="javascript:void(0)" id="nav-icon">☰</a>
 </nav>
