@@ -2,7 +2,7 @@ title: Science & Us
 # tagline and description for meta tags
 tagline: Making the Complex Compelling
 description: We're a youth-led organization teaching high school students about science communication and cross-disciplinary fields that support STEM.
-url: https://www.scienceandus.github.io # no slash means that all relative URLs that prepend site.url must begin with a slash
+url: https://www.scienceandus.org # no slash means that all relative URLs that prepend site.url must begin with a slash
 
 permalink: /:title # clean URLs, e.g. /about as opposed to /about.html
 
