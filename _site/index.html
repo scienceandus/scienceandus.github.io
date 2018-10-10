@@ -1,389 +1,165 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link rel="icon" href="favicon.ico" type="image/x-icon"><!--TODO-->
+		<link rel="icon" href="http://localhost:4000/img/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="http://localhost:4000/css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700" rel="stylesheet">
 		<title>Science & Us | Home</title>
-		<link rel="stylesheet" href="http://localhost:4000/css/normalize.css">
-		<link rel="stylesheet" href="http://localhost:4000/css/skeleton.css">
-		<link rel="stylesheet" href="http://localhost:4000/css/main.css">
-		<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,700" rel="stylesheet">
-
-		<!--og (open graph) for optimizing Facebook sharing-->
-		<meta property="og:title" content="Science & Us | Making the Complex Compelling">
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="http://localhost:4000">
-		<meta property="og:image" content=""><!--TODO-->
-		<meta property="og:site_name" content="Science & Us">
-		<meta property="og:description" content="We're a youth-led organization teaching high school students about science communication and cross-disciplinary fields that support STEM.">
-
-		<!--tags for Twitter-->
-		<meta property="twitter:card" content="summary_large_image">
-		<meta property="twitter:image" content=""><!--TODO-->
-		<meta property="twitter:title" content="Science & Us | Making the Complex Compelling">
-		<meta property="twitter:description" content="We're a youth-led organization teaching high school students about science communication and cross-disciplinary fields that support STEM.">
 	</head>
 
 	<body>
-		<nav class="topnav" id="global-nav">
-	<a href="http://localhost:4000"><h5>Science & Us</h5></a>
-	
-	<a href="/about"><h5>About</h5></a>
-	
-	<a href="/#event"><h5>Event</h5></a>
-	
-	<a href="/community"><h5>In the Community</h5></a>
-	
-	<a href="javascript:void(0)" id="nav-icon">☰</a>
-</nav>
-<script>
-	// responsive navigation
-	document.getElementById("nav-icon").addEventListener("click", toggleNav)
-	function toggleNav() {
-		var x = document.getElementById("global-nav");
-		if (x.className == "topnav") {
-			x.className += " responsive";
-		} else {
-			x.className = "topnav";
-		}
-	}
-</script>
+		<header>
+			<nav id="global-nav" class="default-state">
+				<div class="container container-wide">
+					<a class="logo-link" href="http://localhost:4000"><img class="logo" src="http://localhost:4000/img/Logo-Minified.svg"></a>
+					<a id="toggle" href="javascript:void(0)" onclick="toggleNavMenu()">☰</a>
+					<ul>
+						
+						<li><a href="/about">About</a></li>
+						
+						<li><a href="/#workshop">Workshop</a></li>
+						
+						<li><a href="/blog">Blog</a></li>
+						
+						<li><a href="/donate">Donate</a></li>
+						
+						<li><a href="/contact">Contact</a></li>
+						
+					</ul>
+				</div>
+			</nav>
 
-
-<header id="hero" style="background: url(http://localhost:4000/img/first-event-girls-outside.jpg) center/cover no-repeat fixed">
-	<div class="overlay">
-		<h1>Science & Us</h1>
-		<h3>Making the Complex Compelling</h3>
-		
-		<a href="http://localhost:4000/about" class="button">Learn More</a>
-		
-		<a href="http://localhost:4000/join" class="button button-primary">Join the Team</a>
-		
+			<script>
+				function toggleNavMenu() {
+					var globalNav = document.getElementById("global-nav");
+					if (globalNav.className === "default-state") {
+						globalNav.className += " responsive";
+					} else {
+						globalNav.className = "default-state";
+					}
+				}
+			</script>
+	<div id="intro" class="container container-thin">
+		<h1>Making the complex compelling</h1>
+		<h3>We teach high schoolers science communication skills and about careers bridging STEM and society.</h3>
+		<ul class="button-list">
+			
+			<li><a class="button" href="/apply">Attend Workshop</a></li>
+			
+			<li><a class="button" href="/donate">Donate</a></li>
+			
+		</ul>
 	</div>
 </header>
 
-<section class="container">
-	<section class="row flex">
-		<article class="six columns" style="background-image: url(http://localhost:4000/img/first-event-students-laughing.jpg); background-size: cover; background-position: center; background-repeat: no-repeat">
-			<h3>About Us</h3>
-		</article>
-		<article class="six columns">
-			<h4><h4>Science & Us is a youth-led organization based in greater Boston.</h4><h4>We teach high school students about <b>science communication</b>, or how to <b>translate complex topics to diverse audiences in engaging ways</b>.</h4><h4>We <b>raise awareness</b> about <b>cross-disciplinary</b> STEM careers, such as science media and policy, that are rarely mentioned in school.</h4></h4>
+<section>
+	<div class="container container-thin">
+		<div class="row">
+			<div class="third" style="padding-right: 1.5rem">
+				<h2>Translate tough but important STEM topics to non-experts</h2>
+			</div>
+			<div class="two-thirds">
+				<h4>Pollution. Cybersecurity. Healthcare costs. <b>Today's most pressing issues all involve STEM, but matter to people far beyond science and engineering</b>. Understanding scientific thinking has become crucial, but not everyone needs (or wants) to be a scientist. That's where <b><span class="und">science communication</span></b>—explaining complex topics in engaging, accessible ways to diverse audiences—comes in.</h4>
+			</div>
+		</div>
+	</div>
 
-			
-			<a href="http://localhost:4000/about" class="button button-primary">Learn More</a>
-			
-		</article>
-	</section>
+	<div class="container container-wide">
+		<div class="row">
+			<div class="half blocc">
+				<h3>The Workshop Experience</h3>
+				<p><b>Massachusetts Institute of Technology / Saturday, December 8, 2018</b></p>
+				<p>Whether you're passionate about biology or filmmaking, math or creative writing, you're welcome to join us! At our biannual workshops, we help 40-50 high schoolers (from any school) <b>create their own science communication works</b>.</p>
+				<p>Learn how to communicate big ideas to diverse audiences using different platforms, including <b>articles, videos/animations, interactive webpages, and illustrations</b>. You'll make new friends and receive one-on-one feedback and guidance from workshop leaders from MIT, Harvard, STAT News, and more!</p>
+				<ul class="button-list">
+					<li><a href="http://localhost:4000/apply" class="button">Apply to Attend</a></li>
+					<li><a href="http://localhost:4000/donate" class="button">Sponsor</a></li>
+				</ul>				
+			</div>
 
-	<section id="event" class="row">
-		<article class="four columns">
-			<h3>Summer 2018 Workshop</h3>
-
+			<div class="half blocc image-blocc" style="background-image: url(http://localhost:4000/img/home1.jpg)">
+			</div>
+		</div>
 			
-			<h4>June 9, 2018 | Boston University</h4>
-			
-
-			<p>Forty high school students attended our first event, which featured interactive presentations, hands-on workshops, and a career panel with scientist and communicators from Harvard University, Massachusetts Institute of Technology, Tufts University, Boston University, and STAT.</p>
-
-			
-			<a href="https://photos.google.com/share/AF1QipNLHZ7amBWhubyY1HwSzJrAhWiDDR3AuN-BJ_pBdKKoIDpyHBYoLM2cX3q6vA8wBw?key=eUpoMkVNZGFVSUxEUVU4djM4Y1plajZDcUd2eHRn" class="button">View Photos</a>
-			
-		</article>
-
-		<article class="eight columns" style="display:flex; flex-wrap: wrap; overflow: hidden;">
-			
-			<div class="custom-one-fourth person">
-				<a data-micromodal-trigger="modal-Gabriela Serrato Marks" href="javascript:;">
-					<img src="http://localhost:4000/img/gabi-serratomarks.jpg" alt="Gabriela Serrato Marks" style="width: 100%">
-					<p class="bio">Gabriela Serrato Marks</p>
-				</a>
+		<div class="row">
+			<div class="half blocc image-blocc" style="background-image: url(http://localhost:4000/img/home2.jpg)">
 			</div>
 			
-			<div class="custom-one-fourth person">
-				<a data-micromodal-trigger="modal-Dr. Paul Arthur Berkman" href="javascript:;">
-					<img src="http://localhost:4000/img/paul-berkman.jpg" alt="Dr. Paul Arthur Berkman" style="width: 100%">
-					<p class="bio">Dr. Paul Arthur Berkman</p>
-				</a>
+			<div class="half blocc">
+				<h3>Call for Workshop Leaders & Volunteers</h3>
+				<p></p>
+				<ul class="button-list">
+					<li><a class="button" href="http://localhost:4000/teach">Lead a Workshop</a></li>
+					<li><a class="button" href="http://localhost:4000/volunteer">Volunteer</a></li>
+				</ul>
 			</div>
-			
-			<div class="custom-one-fourth person">
-				<a data-micromodal-trigger="modal-Jeffery DelViscio" href="javascript:;">
-					<img src="http://localhost:4000/img/jeffery-delviscio.png" alt="Jeffery DelViscio" style="width: 100%">
-					<p class="bio">Jeffery DelViscio</p>
-				</a>
+		</div>
+	</div>
+
+	<div class="container container-thin">
+		<h2>Support opportunities for youth in science communication</h2>
+		<h4>Thousands of programs bring STEM to high school students, but few, if any, focus on science communication and developing interdisciplinary perspectives toward STEM and society.</h4>
+	</div>
+
+	<div class="container container-wide">
+		<div class="row">
+			<div class="half blocc">
+				<h3>Donate & Sponsor</h3>
+				<p></p>
 			</div>
-			
-			<div class="custom-one-fourth person">
-				<a data-micromodal-trigger="modal-Dr. Wei Sun Leong" href="javascript:;">
-					<img src="http://localhost:4000/img/weisun-leong.jpg" alt="Dr. Wei Sun Leong" style="width: 100%">
-					<p class="bio">Dr. Wei Sun Leong</p>
-				</a>
+			<div class="half blocc image-blocc" style="background-image: url(http://localhost:4000/img/home3.jpg)"></div>
+		</div>
+		<div class="row">
+			<div class="half blocc image-blocc" style="background-image: url(http://localhost:4000/img/home4.jpg)"></div>
+			<div class="half blocc">
+				<h3>Science & Us in the Community</h3>
+				<p></p>
 			</div>
-			
-			<div class="custom-one-fourth person">
-				<a data-micromodal-trigger="modal-Dana Boebinger" href="javascript:;">
-					<img src="http://localhost:4000/img/dana-boebinger.png" alt="Dana Boebinger" style="width: 100%">
-					<p class="bio">Dana Boebinger</p>
-				</a>
-			</div>
-			
-			<div class="custom-one-fourth person">
-				<a data-micromodal-trigger="modal-Alyson Warr" href="javascript:;">
-					<img src="http://localhost:4000/img/alyson-warr.png" alt="Alyson Warr" style="width: 100%">
-					<p class="bio">Alyson Warr</p>
-				</a>
-			</div>
-			
-			<div class="custom-one-fourth person">
-				<a data-micromodal-trigger="modal-Kelsey Tyssowski" href="javascript:;">
-					<img src="http://localhost:4000/img/kelsey-tyssowski.jpg" alt="Kelsey Tyssowski" style="width: 100%">
-					<p class="bio">Kelsey Tyssowski</p>
-				</a>
-			</div>
-			
-			<div class="custom-one-fourth person">
-				<a data-micromodal-trigger="modal-Daina Bouquin" href="javascript:;">
-					<img src="http://localhost:4000/img/daina-bouquin.jpg" alt="Daina Bouquin" style="width: 100%">
-					<p class="bio">Daina Bouquin</p>
-				</a>
-			</div>
-			
-			<div class="custom-one-fourth person">
-				<a data-micromodal-trigger="modal-Mariah Tinger" href="javascript:;">
-					<img src="http://localhost:4000/img/mariah-tinger.jpg" alt="Mariah Tinger" style="width: 100%">
-					<p class="bio">Mariah Tinger</p>
-				</a>
-			</div>
-			
-		</article>
-	</section>
+		</div>
+	</div>
 
-	<section class="row">
-		<article class="six columns">
-			<h3>Winter 2018 Workshop</h3>
-
-			
-
-			<p><p>This winter, we're introducing a new model that emphasizes giving students opportunities to create their own science communication pieces, learn by doing, and deepen their understanding of a topic of interest.</p>
-<p>Before the event, accepted participants will draft the beginnings of their work, whether it's the first paragraph of an article, storyboard sketches of a video, or another medium. Our workshop will have sessions, led by practitioners and experts in various fields, to help students develop and ultimately share their work.</p>
-</p>
-
-			
-			<a href="http://localhost:4000/sponsor" class="button button-primary">Sponsor Our Next Event</a>
-			
-		</article>
-
-		<article class="six columns">
-			<h3>Science & Us Blog</h3>
-
-			
-			<h4>Coming soon: Interview series on unique, exciting, and interdisciplinary STEM careers</h4>
-			
-
-			<p></p>
-
-			
-		</article>
-	</section>
+	<div class="container container-full">
+		<div class="row">
+			<div class="third"></div>
+			<div class="third"></div>
+			<div class="third"></div>
+		</div>
+	</div>
 </section>
+		<footer>
+			<div class="container container-thin">
+				<div class="row">
 
+					<div class="third">
+						<a href="http://localhost:4000"><img class="logo" src="http://localhost:4000/img/Logo-Minified.svg"></a>
+						<p><a href="mailto:contact@scienceandus.org">contact@scienceandus.org</a></p>
+					</div>
+					
+					<div class="third">
+						<h5>Science & Us</h5>
+						<ul>
+							<li><a href="/donate">Donate</a></li>
+							<li><a href="/about">Mission</a></li>
+							<li><a href="/about#team">Meet Our Team</a></li>
+							<li><a href="/blog">In the Community</a></li>
+						</ul>
+					</div>
+					
+					<div class="third">
+						<h5>Workshop</h5>
+						<ul>
+							<li><a href="/past-workshop">Past Workshop</a></li>
+							<li><a href="/apply">Apply</a></li>
+							<li><a href="/donate">Sponsor</a></li>
+							<li><a href="/teach">Lead a Workshop</a></li>
+							<li><a href="/volunteer">Volunteer</a></li>
+						</ul>
+					</div>
 
-<div class="modal micromodal-slide" id="modal-Gabriela Serrato Marks" aria-hidden="true">
-	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
-		<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-Gabriela Serrato Marks-title">
-			<header class="modal__header">
-				<h2 id="modal-Gabriela Serrato Marks-title">Gabriela Serrato Marks</h2>
-				<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
-			</header>
-			
-			<main class="modal__content" id="modal-Gabriela Serrato Marks-content">
-				<img src="http://localhost:4000/img/gabi-serratomarks.jpg" alt="Photo of Gabriela Serrato Marks" style="width: 100%; margin-bottom: 1rem">
-				<p>Gabriela Serrato Marks is a PhD student in Marine Geology and Geophysics in the MIT-WHOI Joint Program. Her primary research focuses on ancient climate records from cave rocks. Outside of the lab, she is interested in science communication in all formats, from writing to videos and social media. She earned her BA in Earth and Oceanographic Science at Bowdoin College and grew up outside of Boston, MA. You can find her on <a href="http://instagram.com/gserratomarks">Instagram</a> and <a href="http://twitter.com/gserratomarks">Twitter</a> at @gserratomarks.</p>
-			</main>
-
-			<footer class="modal__footer">
-				<button class="button" data-micromodal-close aria-label="Close this dialog window">Close</button>
-			</footer>
-		</div>
-	</div>
-</div>
-
-<div class="modal micromodal-slide" id="modal-Dr. Paul Arthur Berkman" aria-hidden="true">
-	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
-		<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-Dr. Paul Arthur Berkman-title">
-			<header class="modal__header">
-				<h2 id="modal-Dr. Paul Arthur Berkman-title">Dr. Paul Arthur Berkman</h2>
-				<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
-			</header>
-			
-			<main class="modal__content" id="modal-Dr. Paul Arthur Berkman-content">
-				<img src="http://localhost:4000/img/paul-berkman.jpg" alt="Photo of Dr. Paul Arthur Berkman" style="width: 100%; margin-bottom: 1rem">
-				<p>Professor Paul Arthur Berkman is building connections between science, diplomacy and information technology to promote cooperation and prevent discord, balancing national interests and common interests for the benefit of all on Earth. He was a visiting professor at the University of California at the age of 23, after wintering the previous year in Antarctica on a SCUBA research expedition, evolving two decades later into a textbook on Science Into Policy. He was a Fulbright Distinguished and Head of the Arctic Ocean Geopolitics Programme at the University of Cambridge, chairing the Antarctic Treaty Summit at the Smithsonian Institution in 2009 with legacy through the first book on Science Diplomacy and then the first formal NATO-Russia dialogue the following year regarding Environmental Security in the Arctic Ocean with legacy contributions through a successful Springer publication of the same name. He currently coordinates the Arctic Options and Pan-Arctic Options projects (involving support from national science agencies in the United States, Russian Federation, Norway, France, China and Canada from 2013-2020) as well as a Carnegie Corporation project on US- Russia Relations. In September 2015, he joined the Fletcher School of Law and Diplomacy at Tufts University as Professor of Practice in Science Diplomacy and is now Director of the Science Diplomacy Center as a university-wide initiative. For his interdisciplinary research and publications, including the November 2017 policy forum published in Science on Arctic Science Agreement Propels Science Diplomacy, as well as other contributions, Prof. Berkman has received many awards nationally and internationally, most recently the Vernadsky Medal from the Russian Academy of Natural Sciences in 2017. Paul is happily married with two daughters.</p>
-			</main>
-
-			<footer class="modal__footer">
-				<button class="button" data-micromodal-close aria-label="Close this dialog window">Close</button>
-			</footer>
-		</div>
-	</div>
-</div>
-
-<div class="modal micromodal-slide" id="modal-Jeffery DelViscio" aria-hidden="true">
-	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
-		<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-Jeffery DelViscio-title">
-			<header class="modal__header">
-				<h2 id="modal-Jeffery DelViscio-title">Jeffery DelViscio</h2>
-				<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
-			</header>
-			
-			<main class="modal__content" id="modal-Jeffery DelViscio-content">
-				<img src="http://localhost:4000/img/jeffery-delviscio.png" alt="Photo of Jeffery DelViscio" style="width: 100%; margin-bottom: 1rem">
-				<p>Jeff DelViscio is STAT’s director of multimedia and creative. He worked aboard oceanographic research vessels in the Pacific Ocean before dropping anchor at the New York Times, where he developed Web content for five different sections over eight years. Jeff holds dual master's degrees in journalism and climate science, both from Columbia University, and has written for Quartz, Popular Mechanics, and Timeline.com. When Jeff was 3, science saved his life following a run-in with a lawnmower; he’s been trying to give back to science ever since.</p>
-			</main>
-
-			<footer class="modal__footer">
-				<button class="button" data-micromodal-close aria-label="Close this dialog window">Close</button>
-			</footer>
-		</div>
-	</div>
-</div>
-
-<div class="modal micromodal-slide" id="modal-Dr. Wei Sun Leong" aria-hidden="true">
-	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
-		<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-Dr. Wei Sun Leong-title">
-			<header class="modal__header">
-				<h2 id="modal-Dr. Wei Sun Leong-title">Dr. Wei Sun Leong</h2>
-				<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
-			</header>
-			
-			<main class="modal__content" id="modal-Dr. Wei Sun Leong-content">
-				<img src="http://localhost:4000/img/weisun-leong.jpg" alt="Photo of Dr. Wei Sun Leong" style="width: 100%; margin-bottom: 1rem">
-				<p><p>Wei Sun is a postdoctoral associate in the Department of Electrical Engineering and Computer Science (EECS) at Massachusetts Institute of Technology (MIT), where she works with Professor Jing Kong. She received her Ph.D. degree in Electrical and Computer Engineering from National University of Singapore (NUS) in 2015 and completed her undergraduate studies in Electrical Engineering (Electronics) at University of Technology Malaysia in 2011. Her research interest lies at the interface of neuromorphic computing, nanofabrication, device physics, and materials science to understand and engineer devices and systems with unique functionalities at the nanoscale.</p><p>Wei Sun is member of the American Physical Society and the Materials Research Society. She received the 2011 UTM Gold Medal, Dean’s Award and Silterra Academic Award, the 2014 NUS ECE Best Graduate Student Award, the 2015-2017 MIT-SUTD Postdoctoral Fellowship, the 2017 APS DMP Post-Doctoral Travel Award, the 2017-2019 NSF LATTICE Participant Award, and the 2018 StartMIT Presentation Award. At MIT, Wei Sun is now the Women's Initiative Co-Director, EECS Communication Advisor, Postdoctoral Association Initiative Grant Committee, and the 2018 Microsystems Annual Research Conference Social Chair.</p></p>
-			</main>
-
-			<footer class="modal__footer">
-				<button class="button" data-micromodal-close aria-label="Close this dialog window">Close</button>
-			</footer>
-		</div>
-	</div>
-</div>
-
-<div class="modal micromodal-slide" id="modal-Dana Boebinger" aria-hidden="true">
-	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
-		<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-Dana Boebinger-title">
-			<header class="modal__header">
-				<h2 id="modal-Dana Boebinger-title">Dana Boebinger</h2>
-				<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
-			</header>
-			
-			<main class="modal__content" id="modal-Dana Boebinger-content">
-				<img src="http://localhost:4000/img/dana-boebinger.png" alt="Photo of Dana Boebinger" style="width: 100%; margin-bottom: 1rem">
-				<p>Dana Boebinger is a PhD student in the Harvard-MIT program in Speech and Hearing Bioscience and Technology, studying how the human brain understands complex sounds like speech and music. Since her first semester at Harvard, she has been deeply involved with the graduate student organization Science in the News (SITN), which works to bridge the communication gap between scientists and non-scientists through free public lectures, online blogs, science cafes, podcasts, outreach programming, and more. Dana is currently serving as SITN Co-Director, and has further honed her science communication skills through interactive workshops like ComSciCon, and through writing both informative and opinion pieces that have been published in outlets ranging from SITN’s blog to the online Smithsonian magazine. She is on Twitter <a href="http://twitter.com/dlboebinger">@dlboebinger</a>.</p>
-			</main>
-
-			<footer class="modal__footer">
-				<button class="button" data-micromodal-close aria-label="Close this dialog window">Close</button>
-			</footer>
-		</div>
-	</div>
-</div>
-
-<div class="modal micromodal-slide" id="modal-Alyson Warr" aria-hidden="true">
-	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
-		<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-Alyson Warr-title">
-			<header class="modal__header">
-				<h2 id="modal-Alyson Warr-title">Alyson Warr</h2>
-				<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
-			</header>
-			
-			<main class="modal__content" id="modal-Alyson Warr-content">
-				<img src="http://localhost:4000/img/alyson-warr.png" alt="Photo of Alyson Warr" style="width: 100%; margin-bottom: 1rem">
-				<p>Alyson Warr is currently a third-year PhD student in the Biological and Biomedical Sciences program at Harvard Medical School. Aly's research focuses on how bacterial pathogens interact with the human body to cause disease. She is interested in the global impact of infectious disease burden, and how implementing interventions like vaccination can limit the spread of disease. Aly is currently co-director of Science in the News, a Harvard graduate student group that seeks to bridge the communication gap between scientists and the general public by making science accessible and engaging, and by training graduate students to communicate effectively. She is a proud alum of the University of Massachusetts Amherst where she studied microbiology. You can find her on Twitter <a href="http://twitter.com/alysonwarr">@alysonwarr</a>.</p>
-			</main>
-
-			<footer class="modal__footer">
-				<button class="button" data-micromodal-close aria-label="Close this dialog window">Close</button>
-			</footer>
-		</div>
-	</div>
-</div>
-
-<div class="modal micromodal-slide" id="modal-Kelsey Tyssowski" aria-hidden="true">
-	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
-		<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-Kelsey Tyssowski-title">
-			<header class="modal__header">
-				<h2 id="modal-Kelsey Tyssowski-title">Kelsey Tyssowski</h2>
-				<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
-			</header>
-			
-			<main class="modal__content" id="modal-Kelsey Tyssowski-content">
-				<img src="http://localhost:4000/img/kelsey-tyssowski.jpg" alt="Photo of Kelsey Tyssowski" style="width: 100%; margin-bottom: 1rem">
-				<p>Kelsey Tyssowski is a scientist and generally curious human. She is currently a graduate student in the Genetics Department at Harvard Medical School where she studies how the brain stores memories and prevents seizures--or, more specifically, how the neuronal genome responds to changes in brain activity. Kelsey is also currently the Editor-in-Chief of the Science in the News Blog (sitnboston.com), and has been involved with Science in the News as an editor, writer, and educator since 2013. In her free time, she can be found in her community garden plot on Mission Hill and tending to the emotional needs of her dog. You can find her on Twitter <a href="http://twitter.com/kelseytyss">@kelseytyss</a>.</p>
-			</main>
-
-			<footer class="modal__footer">
-				<button class="button" data-micromodal-close aria-label="Close this dialog window">Close</button>
-			</footer>
-		</div>
-	</div>
-</div>
-
-<div class="modal micromodal-slide" id="modal-Daina Bouquin" aria-hidden="true">
-	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
-		<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-Daina Bouquin-title">
-			<header class="modal__header">
-				<h2 id="modal-Daina Bouquin-title">Daina Bouquin</h2>
-				<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
-			</header>
-			
-			<main class="modal__content" id="modal-Daina Bouquin-content">
-				<img src="http://localhost:4000/img/daina-bouquin.jpg" alt="Photo of Daina Bouquin" style="width: 100%; margin-bottom: 1rem">
-				<p>Daina is the Head Librarian at the Harvard-Smithsonian Center for Astrophysics in Cambridge, MA. At the CfA, Daina primarily focuses on lowering social and technical barriers that impact the astronomy community’s ability to create and share their work. Some of her specific topics of interest include open science, research software preservation, machine learning, and the history of astronomy. Prior to her appointment at the CfA, Daina worked for Cornell University Library as a Librarian and Research Data Management Consultant. Daina holds a MS in Data Analytics in addition to a MS in Library and Information Science.</p>
-			</main>
-
-			<footer class="modal__footer">
-				<button class="button" data-micromodal-close aria-label="Close this dialog window">Close</button>
-			</footer>
-		</div>
-	</div>
-</div>
-
-<div class="modal micromodal-slide" id="modal-Mariah Tinger" aria-hidden="true">
-	<div class="modal__overlay" tabindex="-1" data-micromodal-close>
-		<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-Mariah Tinger-title">
-			<header class="modal__header">
-				<h2 id="modal-Mariah Tinger-title">Mariah Tinger</h2>
-				<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
-			</header>
-			
-			<main class="modal__content" id="modal-Mariah Tinger-content">
-				<img src="http://localhost:4000/img/mariah-tinger.jpg" alt="Photo of Mariah Tinger" style="width: 100%; margin-bottom: 1rem">
-				<p>Mariah Tinger’s fascination with nature began with catching polliwogs as a kid; exploring Yosemite National Park’s granite domes and chasing bears out of its campgrounds fortified her love of outdoor adventure. Her career is now firmly established in teaching the critical principles of maintaining a sustainable planet as our home. Mariah’s main educational mediums are sustainability courses at Boston University’s Questrom School of Business, as a co-host of The Climate Minute – a podcast through Massachusetts Climate Action Network, and through her book Protecting the Planet: Environmental Champions from Conservation to Climate Change. She also offers sustainability consulting services to businesses near her home on the North Shore of Massachusetts. Mariah coordinated environmental programs for many years at Genzyme Corporation (now Sanofi Genzyme). She has led individuals and teams in environmental stewardship and education in both corporate and non-profit settings. Mariah holds a master’s degree in Sustainability and Environmental Management from Harvard University Extension School and a bachelor’s degree in Biology with a minor in environment and human values from Trinity College.</p>
-			</main>
-
-			<footer class="modal__footer">
-				<button class="button" data-micromodal-close aria-label="Close this dialog window">Close</button>
-			</footer>
-		</div>
-	</div>
-</div>
-
-
-<script src="http://localhost:4000/js/micromodal.min.js"></script>
-
-<script>
-	window.onscroll = function() {
-    var nav = document.getElementById('global-nav');
-    if ( window.pageYOffset > 100 ) {
-    	console.log("triggered");
-        nav.classList.add("nav-bg");
-    } else {
-        nav.classList.remove("nav-bg");
-    }
-}
-</script>
-
-</body>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>

@@ -1,11 +1,37 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103639830-2"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
+		<footer>
+			<div class="container container-thin">
+				<div class="row">
 
-		  gtag('config', 'UA-103639830-2');
+					<div class="third">
+						<a href="{{ site.url }}"><img class="logo" src="{{ '/img/Logo-Minified.svg' | prepend:site.url }}"></a>
+						<p><a href="mailto:contact@scienceandus.org">contact@scienceandus.org</a></p>
+					</div>
+					
+					<div class="third">
+						<h5>Science & Us</h5>
+						<ul>
+							<li><a href="/donate">Donate</a></li>
+							<li><a href="/about">Mission</a></li>
+							<li><a href="/about#team">Meet Our Team</a></li>
+							<li><a href="/blog">In the Community</a></li>
+						</ul>
+					</div>
+					
+					<div class="third">
+						<h5>Workshop</h5>
+						<ul>
+							<li><a href="/past-workshop">Past Workshop</a></li>
+							<li><a href="/apply">Apply</a></li>
+							<li><a href="/donate">Sponsor</a></li>
+							<li><a href="/teach">Lead a Workshop</a></li>
+							<li><a href="/volunteer">Volunteer</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script>
+			ScrollReveal().reveal('*');
 		</script>
-</body>
+	</body>
 </html>

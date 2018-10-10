@@ -1,32 +1,30 @@
 title: Science & Us
+url: https://scienceandus.org # no slash means that all relative URLs that prepend site.url must begin with a slash
+
 # tagline and description for meta tags
 tagline: Making the Complex Compelling
-description: We're a youth-led organization teaching high school students about science communication and cross-disciplinary fields that support STEM.
-url: https://www.scienceandus.org # no slash means that all relative URLs that prepend site.url must begin with a slash
+description: We're a youth-led organization teaching high school students science communication skills and about careers bridging STEM and society.
 
 permalink: /:title # clean URLs, e.g. /about as opposed to /about.html
 
-# notes:
-# - order of links in this file determines order on website
-# - all relative URLs should be appended to site.url, regardless of source file directory
-
-# homepage links
-links:
-  - name: About
+global-nav:
+  - title: About
     url: /about
-  - name: Event
-    url: /#event
-  - name: In the Community
-    url: /community
-  - name: Join
-    url: /join
-
-sass:
-  style: compressed
+  - title: Workshop
+    url: /#workshop
+  - title: Blog
+    url: /blog
+  - title: Donate
+    url: /donate
+  - title: Contact
+    url: /contact
 
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
     values:
-      layout: "page"
+      layout: "default"
+
+sass:
+  style: compressed

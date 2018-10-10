@@ -1,174 +1,79 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link rel="icon" href="favicon.ico" type="image/x-icon"><!--TODO-->
+		<link rel="icon" href="http://localhost:4000/img/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="http://localhost:4000/css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700" rel="stylesheet">
 		<title>Science & Us | About</title>
-		<link rel="stylesheet" href="http://localhost:4000/css/normalize.css">
-		<link rel="stylesheet" href="http://localhost:4000/css/skeleton.css">
-		<link rel="stylesheet" href="http://localhost:4000/css/main.css">
-		<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,700" rel="stylesheet">
-
-		<!--og (open graph) for optimizing Facebook sharing-->
-		<meta property="og:title" content="Science & Us | Making the Complex Compelling">
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="http://localhost:4000">
-		<meta property="og:image" content=""><!--TODO-->
-		<meta property="og:site_name" content="Science & Us">
-		<meta property="og:description" content="We're a youth-led organization teaching high school students about science communication and cross-disciplinary fields that support STEM.">
-
-		<!--tags for Twitter-->
-		<meta property="twitter:card" content="summary_large_image">
-		<meta property="twitter:image" content=""><!--TODO-->
-		<meta property="twitter:title" content="Science & Us | Making the Complex Compelling">
-		<meta property="twitter:description" content="We're a youth-led organization teaching high school students about science communication and cross-disciplinary fields that support STEM.">
 	</head>
 
 	<body>
-		<nav class="topnav" id="global-nav">
-	<a href="http://localhost:4000"><h5>Science & Us</h5></a>
-	
-	<a href="/about"><h5>About</h5></a>
-	
-	<a href="/#event"><h5>Event</h5></a>
-	
-	<a href="/community"><h5>In the Community</h5></a>
-	
-	<a href="javascript:void(0)" id="nav-icon">☰</a>
-</nav>
-<script>
-	// responsive navigation
-	document.getElementById("nav-icon").addEventListener("click", toggleNav)
-	function toggleNav() {
-		var x = document.getElementById("global-nav");
-		if (x.className == "topnav") {
-			x.className += " responsive";
-		} else {
-			x.className = "topnav";
-		}
-	}
-</script>
+		<header>
+			<nav id="global-nav" class="default-state">
+				<div class="container container-wide">
+					<a class="logo-link" href="http://localhost:4000"><img class="logo" src="http://localhost:4000/img/Logo-Minified.svg"></a>
+					<a id="toggle" href="javascript:void(0)" onclick="toggleNavMenu()">☰</a>
+					<ul>
+						
+						<li><a href="/about">About</a></li>
+						
+						<li><a href="/#workshop">Workshop</a></li>
+						
+						<li><a href="/blog">Blog</a></li>
+						
+						<li><a href="/donate">Donate</a></li>
+						
+						<li><a href="/contact">Contact</a></li>
+						
+					</ul>
+				</div>
+			</nav>
 
+			<script>
+				function toggleNavMenu() {
+					var globalNav = document.getElementById("global-nav");
+					if (globalNav.className === "default-state") {
+						globalNav.className += " responsive";
+					} else {
+						globalNav.className = "default-state";
+					}
+				}
+			</script>
 
-<section class="container page-section">
-	<h1 id="about-science--us">About Science &amp; Us</h1>
+		<footer>
+			<div class="container container-thin">
+				<div class="row">
 
-<h2 id="our-mission">Our Mission</h2>
+					<div class="third">
+						<a href="http://localhost:4000"><img class="logo" src="http://localhost:4000/img/Logo-Minified.svg"></a>
+						<p><a href="mailto:contact@scienceandus.org">contact@scienceandus.org</a></p>
+					</div>
+					
+					<div class="third">
+						<h5>Science & Us</h5>
+						<ul>
+							<li><a href="/donate">Donate</a></li>
+							<li><a href="/about">Mission</a></li>
+							<li><a href="/about#team">Meet Our Team</a></li>
+							<li><a href="/blog">In the Community</a></li>
+						</ul>
+					</div>
+					
+					<div class="third">
+						<h5>Workshop</h5>
+						<ul>
+							<li><a href="/past-workshop">Past Workshop</a></li>
+							<li><a href="/apply">Apply</a></li>
+							<li><a href="/donate">Sponsor</a></li>
+							<li><a href="/teach">Lead a Workshop</a></li>
+							<li><a href="/volunteer">Volunteer</a></li>
+						</ul>
+					</div>
 
-<p>Science is inextricably intertwined with our lives and momentous issues that affect and matter to many people, regardless of their passion or profession: the politics of net neutrality, economics of environmental pollution, ethics of privacy on social media, and more.</p>
-
-<p>Understanding the fundamentals of STEM (science, technology, engineering, and math) and skills in scientific thinking has become crucial for everyone. Nonetheless, many view science as intimidating or irrelevant.</p>
-
-<p>Science communication, the practice of explaining scientific topics in an exciting, clear, and accurate manner, is essential for bridging the gap between science and society.</p>
-
-<p><strong>Science &amp; Us aims to teach youth about the growing field of science communication, which is rarely mentioned to high school students, as well as important skills in communication.</strong></p>
-
-<p><strong>We strive to enable STEM-oriented students to better explain their passions to non-expert friends and others, and let students with diverse (i.e. STEM <em>and</em> non-STEM) interests know that they don’t necessarily have to “choose a side.”</strong></p>
-
-<h2 id="how-we-accomplish-our-mission">How We Accomplish Our Mission</h2>
-
-<h3 id="target-audience">Target Audience</h3>
-
-<p>We especially try to reach two groups of people:</p>
-
-<p><strong>1. STEM-curious<sup>1</sup> students who have always been attracted to the non-technical aspects<sup>2</sup> of STEM</strong></p>
-
-<p><strong>2. STEM-curious<sup>1</sup> students who struggle to communicate their passion and projects to people who don’t share their interests</strong></p>
-
-<p><sup>1</sup> “STEM-curious students” is a broad term referring to students who demonstrate interest and/or aptitude in science, technology, engineering, and/or math by participating in extracurricular activities, taking and being engaged in classes, or other ways.</p>
-
-<p><sup>2</sup> Examples of the non-technical aspects could be:</p>
-<ul>
-  <li>Managing the outreach and business side of science/robotics team</li>
-  <li>Communicating a research project with non-experts</li>
-  <li>Explaining advanced topics to younger students as tutors</li>
-</ul>
-
-<h3 id="goals">Goals</h3>
-
-<p>We hope to accomplish two goals with our target audiences:</p>
-
-<p><strong>1. Expose students to careers and fields that support science, but aren’t necessarily “doing” science itself.</strong> Examples include:</p>
-
-<ul>
-  <li>Science-related media production:
-    <ul>
-      <li>Hollywood movies, YouTube videos, documentaries, magazines, etc.</li>
-    </ul>
-  </li>
-  <li>Science journalism and writing:
-    <ul>
-      <li>Science columns of general newspapers <em>The New York Times</em></li>
-      <li>Science-specific outlets like <em>STAT</em>, <em>Quanta Magazine</em>, <em>National Geographic</em></li>
-      <li>Books in the popular science genre: <em>A Brief History of Time</em>, <em>The Immortal Life of Henrietta Lacks</em>, <em>The Elegant Universe</em>, <em>The Emperor of All Maladies</em></li>
-    </ul>
-  </li>
-  <li>Science policy and diplomacy</li>
-  <li>Informal education
-    <ul>
-      <li>Working at a science museum, national park, etc.</li>
-    </ul>
-  </li>
-  <li>Science outreach, etc.</li>
-</ul>
-
-<p><strong>2. Teach students the skills of science communication and get them to put it into practice</strong></p>
-
-<p>We define science communication as <strong>explaining scientific concepts in engaging and understandable ways to diverse audiences through any medium</strong> (e.g. oral communication, writing, videos).</p>
-
-<h3 id="methods">Methods</h3>
-
-<p>To reach our goals, we try these approaches and revise them as necessary:</p>
-
-<ul>
-  <li>Event (new format for Winter 2018 Workshop):
-    <ol>
-      <li>Prior to the event, students who apply and are somewhat selectively selected will be asked to start working on a science communication piece, like writing a paragraph about a topic in STEM they’re interested in or know about. Students will also fill out a pre-event survey either before the event or at the beginning of it.</li>
-      <li>At the event, invited adult science communicators from various universities, organizations, and companies will introduce themselves and their career paths to high school attendees, who can also ask them questions in panel sessions and networking sessions.</li>
-      <li>The invited communicators will lead interactive workshops for the students to develop their science communication work in different mediums</li>
-      <li>At the end of the event, we’ll have a session for people to share their works in progress and actionable advice on continuing them, with the goal of getting most of their works published on our blog</li>
-    </ol>
-  </li>
-  <li>Blog:
-    <ol>
-      <li>On our website we’ll provide a platform for students to publish science communication work they’ve either created at workshops during our events or on their own.</li>
-      <li>We’ll also share interviews that the Science &amp; Us team conducts with people in “bridge-building” professions</li>
-    </ol>
-  </li>
-</ul>
-
-<h3 id="outcomes">Outcomes</h3>
-
-<p>If you spoke with a student before and after they participate in a Science &amp; Us program, what differences would you expect to hear? What does it look like if we accomplish our goals?</p>
-
-<p><em>Possible Before</em>: Target Audience #1 may be looking for opportunities to combine interests in both STEM and other fields, but may not be aware that these opportunities exist</p>
-
-<p><em>Ideal After</em>: Students are aware of “bridge-building” careers, including the name of the job, the day-to-day tasks the job involves, what steps they need to take to work toward the job, and ideally diverse people who have that job</p>
-
-<p><em>Possible Before</em>: Target Audience #2 struggles to communicate what they’re excited about to others who don’t have the same expertise or understanding level</p>
-
-<p><em>Ideal After</em>: Students can effectively explain their passions in understandable ways, practice and develop that skill, and gain a deeper understanding of their own interests too</p>
-
-<h2 id="meet-the-team">Meet the Team</h2>
-
-<p>Biographies coming soon!</p>
-
-<h4 id="katherine-huang">Katherine Huang</h4>
-
-<h4 id="sasha-hussain">Sasha Hussain</h4>
-
-<h4 id="minh-phan">Minh Phan</h4>
-
-<h4 id="angela-tran">Angela Tran</h4>
-
-<h4 id="emily-tan">Emily Tan</h4>
-
-<h4 id="kumudini-devalla">Kumudini Devalla</h4>
-
-<h4 id="parin-shaik">Parin Shaik</h4>
-
-</section>
-
-</body>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>

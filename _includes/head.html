@@ -1,29 +1,36 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link rel="icon" href="favicon.ico" type="image/x-icon"><!--TODO-->
+		<link rel="icon" href="{{ '/img/favicon.ico' | prepend:site.url }}" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="{{ '/css/styles.css' | prepend:site.url }}">
+		<link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700" rel="stylesheet">
 		<title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
-		<link rel="stylesheet" href="{{ '/css/normalize.css' | prepend:site.url }}">
-		<link rel="stylesheet" href="{{ '/css/skeleton.css' | prepend:site.url }}">
-		<link rel="stylesheet" href="{{ '/css/main.css' | prepend:site.url }}">
-		<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,700" rel="stylesheet">
-
-		<!--og (open graph) for optimizing Facebook sharing-->
-		<meta property="og:title" content="{{ site.title }} | {{ site.tagline }}">
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="{{ site.url }}">
-		<meta property="og:image" content=""><!--TODO-->
-		<meta property="og:site_name" content="{{ site.title }}">
-		<meta property="og:description" content="{{ site.description }}">
-
-		<!--tags for Twitter-->
-		<meta property="twitter:card" content="summary_large_image">
-		<meta property="twitter:image" content=""><!--TODO-->
-		<meta property="twitter:title" content="{{ site.title }} | {{ site.tagline }}">
-		<meta property="twitter:description" content="{{ site.description }}">
+		<script src="{{ '/js/scrollreveal.js' | prepend:site.url }}"></script>
 	</head>
 
 	<body>
-		{% include nav.html %}
+		<header>
+			<nav id="global-nav" class="default-state">
+				<div class="container container-wide">
+					<a class="logo-link" href="{{ site.url }}"><img class="logo" src="{{ '/img/Logo-Minified.svg' | prepend:site.url }}"></a>
+					<a id="toggle" href="javascript:void(0)" onclick="toggleNavMenu()">☰</a>
+					<ul>
+						{% for link in site.global-nav %}
+						<li><a href="{{ link.url }}">{{ link.title }}</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</nav>
+
+			<script>
+				function toggleNavMenu() {
+					var globalNav = document.getElementById("global-nav");
+					if (globalNav.className === "default-state") {
+						globalNav.className += " responsive";
+					} else {
+						globalNav.className = "default-state";
+					}
+				}
+			</script>
