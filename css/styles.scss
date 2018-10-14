@@ -81,12 +81,21 @@ nav li a {
 	max-width: 85px;
 }
 
-header {
+body {
 	background: url({{ '/img/header.jpg' | prepend:site.url }}) bottom/cover no-repeat fixed;
+}
+
+header {
 	color: #eee;
 }
 
 /* ====================== STRUCTURE/FORMAT ====================== */
+section {
+	padding: 3rem 0 2rem;
+	background: #fff;
+	margin: 0;
+}
+
 .container {
 	margin: auto;
 }
