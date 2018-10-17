@@ -1,5 +1,6 @@
 ---
 title: Apply
+layout: subpage
 ---
 
 <center>

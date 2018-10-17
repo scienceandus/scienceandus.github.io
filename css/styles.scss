@@ -19,6 +19,7 @@ $color2: $orange;
 nav {
 	position: fixed;
 	width: 100%;
+	top: 0;
 }
 
 nav .container {
@@ -128,6 +129,10 @@ section {
 	width: 100%;
 }
 
+.subpage {
+	margin: 8rem 0 2rem;
+}
+
 /* ====================== TYPOGRAPHY & MISC STYLES ====================== */
 p {
 	margin: .7em 0;
@@ -185,7 +190,7 @@ b { font-weight: 700 }
 .und:hover:after {
   height: .5em;
   top: -.5em; /* set to same value as height to give the appearance of the underline not moving */
-  margin-bottom: -.5em; /* difference btwn initial and final underline thickness */
+  margin-bottom: -.55em; /* difference btwn initial and final underline thickness */
 }
 
 section {
@@ -195,13 +200,14 @@ section {
 }
 
 .button-list {
-	margin: 1rem 0;
+	margin-top: 1rem;
 }
 
 .button-list li {
 	list-style: none;
 	display: inline-block;
 	margin-right: 1.5rem;
+	margin-bottom: 1rem;
 }
 
 .button {
@@ -293,7 +299,7 @@ footer a:hover, footer a:active {
 
 	/* ====================== HEADER ====================== */
 	header {
-		padding: 14rem 0 9rem;
+		padding: 12rem 0 5rem;
 	}
 
 	/* ====================== STRUCTURE ====================== */
