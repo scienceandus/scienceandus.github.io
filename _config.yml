@@ -8,16 +8,10 @@ description: We're a youth-led organization teaching high school students scienc
 permalink: /:title # clean URLs, e.g. /about as opposed to /about.html
 
 global-nav:
-  - title: About
-    url: /about
-  - title: Workshop
-    url: /#workshop
-  - title: Blog
-    url: /blog
+  - title: Attend Workshop
+    url: /apply
   - title: Donate
     url: /donate
-  - title: Contact
-    url: /contact
 
 defaults:
   -
