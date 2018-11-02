@@ -11,7 +11,7 @@ global-nav:
   - title: Attend Workshop
     url: /apply
   - title: Donate
-    url: /donate
+    url: /#donate
 
 defaults:
   -
