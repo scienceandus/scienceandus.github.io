@@ -56,8 +56,36 @@ header-buttons:
 
 	<div class="container container-full">
 		<div class="row">
-			<div class="half blocc">
+			<div id="FAQ" class="half blocc">
 				<h3>FAQ</h3>
+				<br>
+
+				<h4 class="collapsible"><b>Who can apply?</b></h4>
+				<p class="content">Any high school student (including homeschool) with any interests, not only in STEM! We may allow middle schoolers on a case-by-case basis. Undergraduates and anyone older can apply to volunteer.</p>
+
+				<h4 class="collapsible"><b>Wait, I have to apply?</b></h4>
+				<p class="content">Yep. We don’t want to exclude people, but we want to make sure that the students who attend are dedicated and willing to be creative. Don’t worry if you aren’t a science geek or don’t have the most impressive accomplishments—show us that you can commit to pushing the limits of your comfort zone for at least this one day.</p>
+
+				<h4 class="collapsible"><b>When is this happening?</b></h4>
+				<p class="content">Saturday, December 8. The exact hours will be posted soon, but approximately 9:30 AM to 4:30 PM.</p>
+
+				<h4 class="collapsible"><b>Where is this happening?</b></h4>
+				<p class="content">33 Massachusetts Ave, Cambridge, MA. This is Building 3 at MIT and we’ll mainly meet in Room 270. For more information, visit <a href="http://whereis.mit.edu">whereis.mit.edu</a>.</p>
+
+				<h4 class="collapsible"><b>Who are the workshop leaders and speakers?</b></h4>
+				<p class="content">Really, really great people. Stay tuned for announcements and check out our past speakers!</p>
+
+				<h4 class="collapsible"><b>When’s the deadline to sign up?</b></h4>
+				<p class="content">November 17. <a href="/apply">Apply now!</a></p>
+
+				<h4 class="collapsible"><b>How will this work?</b></h4>
+				<p class="content">You’re going to create your own science communication project! That means anything that makes a STEM topic understandable and interesting. It can be an article, video, podcast, website, or anything else. Accepted students will be expected to do some research beforehand (we’ll send out more detailed instructions and resources), and our talented, down-to-earth experts will help you create, improve, and share your piece.</p>
+
+				<h4 class="collapsible"><b>Will there be food?</b></h4>
+				<p class="content">Yes. We’ll ask if participants have any dietary restrictions.</p>
+
+				<h4 class="collapsible"><b>Will this be fun?</b></h4>
+				<p class="content">Yes. Hopefully. It will challenge you, but you’ll meet amazing people, make new friends, and learn a lot.</p>
 			</div>
 
 			<div class="half blocc">
@@ -97,3 +125,20 @@ header-buttons:
 		</div>
 	</div>
 </section>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>

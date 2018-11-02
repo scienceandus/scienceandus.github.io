@@ -226,6 +226,11 @@ section {
 	background: lighten($orange, 10%);
 }
 
+/* collapsible content is hidden by default */
+.content { display: none }
+#FAQ .collapsible { transition: .15s }
+#FAQ .collapsible:active, #FAQ .collapsible:hover { border-left: 7.5px solid $orange; padding-left: 7.5px }
+
 /* ====================== FOOTER ====================== */
 
 footer {
