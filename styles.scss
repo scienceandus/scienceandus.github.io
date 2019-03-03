@@ -203,3 +203,40 @@ h5 {
 .portrait-container img {
     width: 100%;
 }
+
+@media (max-width: 80rem) {
+    .container-thin, .container-medium {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    header {
+        padding-top: 12.5rem;
+        padding-bottom: 4rem;
+    }
+
+    h1 {
+        font-size: 3.4rem;
+        line-height: 110%;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .portrait-container {
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 50rem) {
+    .half, .one-third, .two-thirds {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    section {
+        margin: 2rem 0;
+    }
+}
