@@ -1,24 +1,16 @@
 title: Science & Us
-url: https://scienceandus.org # no slash means that all relative URLs that prepend site.url must begin with a slash
+url: scienceandus.org
+description: Science & Us is a youth-led organization helping high schoolers practice communicating STEM (science, technology, engineering, math) topics and learn about careers bridging STEM and society.
 
-# tagline and description for meta tags
-tagline: Making the Complex Compelling
-description: We're a youth-led organization teaching high school students science communication skills and about careers bridging STEM and society.
-
-permalink: /:title # clean URLs, e.g. /about as opposed to /about.html
-
-global-nav:
-  - title: Attend Workshop
-    url: /apply
-  - title: Donate
-    url: /#donate
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
+global_nav_links:
+#  - name: About
+#    url: /about
 
 sass:
   style: compressed
+
+permalink: /:title
+
+collections:
+  invited_experts:
+    output: true

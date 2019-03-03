@@ -1,144 +1,102 @@
 ---
 title: Home
-layout: home
-header-tagline: Making the complex compelling
-header-text: We teach high schoolers science communication skills and about careers bridging STEM and society.
-header-buttons:
-  - title: Attend Workshop
-    url: /apply
-  - title: Donate
-    url: /#donate
+
+hero_title: Making the complex compelling
+
+hero_subtitle: We help high schoolers communicate complex topics and learn about careers bridging STEM and society.
+
+first_section_heading: Translate tough but important STEM topics to non-experts
+
+first_section_description: >
+    From pollution to cybersecurity, <b>all of today's pressing issues all involve <abbr title="science, technology, engineering, math">STEM</abbr>, but matter to people beyond those fields</b>. Understanding STEM is crucial, but not everyone needs (or wants) to be a scientist. That's where <span class="und">STEM communication</span>—making complex topics engaging and accessible for diverse audiences—comes in.
+
+makeathon_description: >
+    <h4><b>August 17, 2019 @ MIT</b></h4>
+    <h4>We bring together 50 high schoolers for a day of <b>creating projects—articles, podcasts, art</b>—to describe a STEM topic of your choice to general audiences.</h4>
+    <h4>We'll provide food, hands-on workshops, and opportunities to meet and learn from the coolest people in STEM communication.</h4>
+    <h4>Whether you're passionate biology or filmmaking, math or creative writing, the Makeathon is for you. Just bring your <b>curiosity</b> and <b>dedication</b>!</h4>
+    <a href="mailto:contact@scienceandus.org" class="button">Sponsor</a>
 ---
 
-	<div id="intro" class="container container-thin">
-		<h1>{{ page.header-tagline }}</h1>
-		<h3>{{ page.header-text }}</h3>
-		<ul class="button-list">
-			{% for button in page.header-buttons %}
-			<li style="vertical-align: bottom"><a class="button" href="{{ button.url }}">{{ button.title }}</a></li>
-			{% endfor %}
-		</ul>
-	</div>
-</header>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="{{ site.description }}">
+        <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+        <link rel="stylesheet" type="text/css" href="{{ '/styles.css' | prepend:site.url }}">
+    </head>
 
-<section>
-	<div class="container container-thin">
-		<div class="row">
-			<div class="third" style="padding-right: 1.5rem">
-				<h2>Translate tough but important STEM topics to non-experts</h2>
-			</div>
-			<div class="two-thirds">
-				<h4>Pollution. Cybersecurity. Healthcare costs. <b>Today's most pressing issues all involve STEM, but matter to
-						people far beyond science and engineering</b>. Understanding scientific thinking has become crucial, but not
-					everyone needs (or wants) to be a scientist. That's where <b><span class="und">science communication</span></b>—explaining
-					complex topics in engaging, accessible ways to diverse audiences—comes in.</h4>
-			</div>
-		</div>
-	</div>
+    <body>
+        <nav id="global-nav" class="container-medium">
+            <a href="{{ site.url }}" id="global-nav-logo">
+                <img src="{{ '/img/logo.svg' | prepend:site.url }}" alt="{{ site.title }}">
+            </a>
 
-	<div class="container container-wide">
-		<div class="row">
-			<div class="half blocc">
-				<h3 class="und">High School Workshop</h3>
-				<p><b>Massachusetts Institute of Technology / Building 3 / Saturday, December 8, 2018</b>
-				<p>Whether you're passionate about biology or filmmaking, math or creative writing, you're welcome to join us! At our biannual workshops, we help 30-40 high schoolers <b>create their own science communication works</b>.</p>
-				<p>Learn how to communicate big ideas to diverse audiences using different platforms, such as <b>articles, animations, podcasts, and interactive webpages</b>. You'll make new friends and receive one-on-one feedback and guidance from experts from MIT, Harvard, STAT News, and more!</p>
-				<ul class="button-list">
-					<li><a href="{{ '/apply' | prepend:site.url }}" class="button">Apply to Attend</a></li>
-					<li><a href="{{ '/#donate' | prepend:site.url }}" class="button">Donate</a></li>
-				</ul>
-			</div>
+            <ul>
+                {% for link in site.global_nav_links %}
+                <a href="{{ link.url }}">{{ link.name }}</a>
+                {% endfor %}
+            </ul>
+        </nav>
 
-			<div class="half blocc image-blocc" style="background-image: url({{ '/img/home1.jpg' | prepend:site.url }})">
-			</div>
-		</div>
-	</div>
+        <header class="container-thin">
+            <h1>{{ page.hero_title }}</h1>
+            <h3>{{ page.hero_subtitle }}</h3>
 
-	<div class="container container-full">
-		<div class="row">
-			<div id="FAQ" class="half blocc">
-				<h3>FAQ</h3>
-				<br>
+            <nav id="hero-nav">
+                {% for link in page.hero_nav_links %}
+                <a href="{{ link.url }}" class="button">{{ link.name }}</a>
+                {% endfor %}
 
-				<h4 class="collapsible"><b>Who can apply?</b></h4>
-				<p class="content">Any high school student (including homeschool) with any interests, not only in STEM! We may allow middle schoolers on a case-by-case basis. Undergraduates and anyone older can apply to volunteer.</p>
+                <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="https://scienceandus.us18.list-manage.com/subscribe/post?u=c6950b66f33222f9206528e94&amp;id=ca6a447e00" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c6950b66f33222f9206528e94_ca6a447e00" tabindex="-1" value=""></div>
+                            <input type="submit" value="Get updates" name="subscribe" id="mc-embedded-subscribe" class="button">
+                        </div>
+                    </form>
+                </div>
+                <!--End mc_embed_signup-->
+            </nav>
+        </header>
 
-				<h4 class="collapsible"><b>Wait, I have to apply?</b></h4>
-				<p class="content">Yep. We don’t want to exclude people, but we want to make sure that the students who attend are dedicated and willing to be creative. Don’t worry if you aren’t a science geek or don’t have the most impressive accomplishments—show us that you can commit to pushing the limits of your comfort zone for at least this one day.</p>
+        <section class="container-flex container-thin">
+            <div class="one-third">
+                <h2>{{ page.first_section_heading }}</h2>
+            </div>
 
-				<h4 class="collapsible"><b>When is this happening?</b></h4>
-				<p class="content">Saturday, December 8. The exact hours will be posted soon, but approximately 9:30 AM to 4:30 PM.</p>
+            <div class="two-thirds">
+                <h4>{{ page.first_section_description }}</h4>
+            </div>
+        </section>
 
-				<h4 class="collapsible"><b>Where is this happening?</b></h4>
-				<p class="content">33 Massachusetts Ave, Cambridge, MA. This is Building 3 at MIT and we’ll mainly meet in Room 270. For more information, visit <a href="http://whereis.mit.edu">whereis.mit.edu</a>.</p>
+        <section class="container-flex container-medium">
+            <div class="one-third">
+                <h2>Science & Us <span class="und">Makeathon</span></h2>
+                <h4>{{ page.makeathon_description }}</h4>
+            </div>
 
-				<h4 class="collapsible"><b>Who are the workshop leaders and speakers?</b></h4>
-				<p class="content">Really, really great people. Stay tuned for announcements and check out our past speakers!</p>
+            <div class="two-thirds">
+                <h5><b>Past Speakers, Workshop Leaders, & Panelists</b></h5>
 
-				<h4 class="collapsible"><b>When’s the deadline to sign up?</b></h4>
-				<p class="content">November 17. <a href="/apply">Apply now!</a></p>
+                <div class="container-flex">
+                    {% for expert in site.invited_experts limit:6 %}
+                    <div class="one-third">
+                        <div class="portrait-container">
+                            <img src="{{ expert.portrait }}" alt="{{ expert.name }}">
+                        </div>
+                        <h5><b>{{ expert.name }}</b>{% if expert.institution %}, {{ expert.institution }}{% endif %}</h5>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
 
-				<h4 class="collapsible"><b>How will this work?</b></h4>
-				<p class="content">You’re going to create your own science communication project! That means anything that makes a STEM topic understandable and interesting. It can be an article, video, podcast, website, or anything else. Accepted students will be expected to do some research beforehand (we’ll send out more detailed instructions and resources), and our talented, down-to-earth experts will help you create, improve, and share your piece.</p>
-
-				<h4 class="collapsible"><b>Will there be food?</b></h4>
-				<p class="content">Yes. We’ll ask if participants have any dietary restrictions.</p>
-
-				<h4 class="collapsible"><b>Will this be fun?</b></h4>
-				<p class="content">Yes. Hopefully. It will challenge you, but you’ll meet amazing people, make new friends, and learn a lot.</p>
-			</div>
-
-			<div class="half blocc">
-				<h3>Past Speakers</h3>
-			</div>
-		</div>
-	</div>
-
-	<div id="donate" class="container container-thin">
-		<h2>Support opportunities for youth in science communication</h2>
-		<h4>Thousands of programs bring STEM to high school students, but few, if any, focus on science communication and
-			developing interdisciplinary perspectives. Teens with diverse interests often don’t know how to combine them in
-			college and careers. We’re here to change that—and share our experiences with the broader science communication
-			world.</h4>
-	</div>
-
-	<div class="container container-thin">
-		<center><script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/scienceandus?show_content=true" height="685px" width="100%" style="max-width:100%; min-width:100%; margin: 2rem auto 0; max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest></iframe></center>
-	</div>
-
-	<div class="container container-wide">
-		<div class="row">
-			<div class="half blocc image-blocc" style="background-image: url({{ '/img/home4.jpg' | prepend:site.url }})"></div>
-			<div class="half blocc">
-				<h3>Science & Us in the Community</h3>
-				<p>Our team members have been invited to <a href="http://comscicon.com">ComSciCon</a> (national science communication workshop for and by graduate students) and <a href="http://sciencemediasummit.org">Science Media Awards and Summit in the Hub 2018</a> (SMASH18), in both cases as unprecedented high school participants.</p>
-				<p>Our presentation proposal for <b><a href="http://sciencetalk.org">Science Talk</a></b>, a science communication conference in Portland, recently got selected as a finalist! We also finished in 5th Place in the first-ever <a href="http://pioneer.app">Pioneer</a> tournament and have been <a href="http://www.lowellsun.com/news/ci_32028252/huang-stirs-change-by-making-science-and-humanities">feature in The Lowell Sun</a>. Have a cool opportunity in mind? Let us know at <a href="mailto:contact@scienceandus.org">contact@scienceandus.org</a>!</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="container container-full">
-		<div class="row">
-			<div class="third"></div>
-			<div class="third"></div>
-			<div class="third"></div>
-		</div>
-	</div>
-</section>
-
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
+        <script src="https://embed.small.chat/TB9L358G2GGNUMEE6T.js" async></script>
+    </body>
+</html>
