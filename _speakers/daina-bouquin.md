@@ -1,8 +1,8 @@
 ---
 name: Daina Bouquin
 event: June 2018
-title: Space Librarian
+role: Space Librarian
 institution: Harvard-Smithsonian Center for Astrophysics
-portrait: '/img/daina-bouquin.jpg'
+portrait: 'daina-bouquin.jpg'
 bio:
 ---

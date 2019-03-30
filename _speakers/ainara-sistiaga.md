@@ -1,9 +1,9 @@
 ---
 name: Ainara Sistiaga
 event: December 2018
-title: Marie Curie Postdoctoral Fellow
+role: Marie Curie Postdoctoral Fellow
 institution: MIT
-portrait: '/img/ainara-sistiaga.jpg'
+portrait: 'ainara-sistiaga.jpg'
 bio:
 layout: speaker
 ---

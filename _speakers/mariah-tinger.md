@@ -1,8 +1,8 @@
 ---
 name: Mariah Tinger
 event: June 2018
-title: Author, Professor, Sustainability Consultant
+role: Author, Professor, Sustainability Consultant
 institution: Boston University
-portrait: '/img/mariah-tinger.jpeg'
+portrait: 'mariah-tinger.jpg'
 bio:
 ---

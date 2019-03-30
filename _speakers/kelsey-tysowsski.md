@@ -1,8 +1,8 @@
 ---
 name: Kelsey Tysowsski
 event: June 2018
-title: Ph.D. Student
+role: Ph.D. Student
 institution: Harvard Medical School
-portrait: '/img/kelsey-tyssowski.jpg'
+portrait: 'kelsey-tyssowski.jpg'
 bio:
 ---

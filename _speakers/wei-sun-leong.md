@@ -1,8 +1,8 @@
 ---
 name: Wei Sun Leong
 event: June 2018
-title: Postdoctoral Scholar
+role: Postdoctoral Scholar
 institution: MIT Electrical Engineering & Computer Science
-portrait: '/img/wei-sun-leong.png'
+portrait: 'wei-sun-leong.jpg'
 bio:
 ---

@@ -21,3 +21,9 @@ defaults:
       path: ""
     values:
       layout: "base"
+  -
+    scope:
+      path: ""
+      type: "speakers"
+    values:
+      layout: "speaker"

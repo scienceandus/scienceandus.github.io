@@ -1,8 +1,8 @@
 ---
 name: Alyson Warr
 event: June 2018
-title: Ph.D. Student
+role: Ph.D. Student
 institution: Harvard Medical School
-portrait: '/img/alyson-warr.jpg'
+portrait: 'alyson-warr.jpg'
 bio:
 ---

@@ -7,7 +7,7 @@ layout: base
 <section class="container-thin container-flex">
     <div class="one-third">
         <div class="portrait-container">
-            <img src="{{ page.portrait }}" alt="{{ page.name }}">
+            <img src="{{ page.portrait | prepend:'/img/speakers/' | prepend:site.url }}" alt="{{ page.name }}">
         </div>
     </div>
 

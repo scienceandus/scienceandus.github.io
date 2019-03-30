@@ -1,9 +1,9 @@
 ---
 name: Paul Berkman
 event: June 2018
-title: Director
+role: Director
 institution: Science Diplomacy Center at Tufts University
-portrait: '/img/paul-berkman.jpg'
+portrait: 'paul-berkman.jpg'
 bio: >
     <p>Paul Arthur Berkman is a professor of practice in science diplomacy and directs the Science Diplomacy Center at The Fletcher School of Law and Diplomacy at Tufts University. He is an internationally-renowned scientist, explorer, educator and author who has made significant contributions to the sustainable development of our world during the past three decades. He is especially motivated to establish connections between science, diplomacy and information technology to promote cooperation and prevent discord for good governance of regions beyond sovereign jurisdictions – which account for nearly 70% of the Earth.</p>
     <p>Paul was a visiting professor at the University of California at the age of 24, after wintering in Antarctica on a SCUBA research expedition the previous year, and travelled to all seven continents before the age of 30. He was former head of the Arctic Ocean Geopolitics Programme at the University of Cambridge and a research professor at the University of California Santa Barbara.</p>
