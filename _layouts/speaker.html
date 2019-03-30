@@ -1,0 +1,18 @@
+---
+layout: base
+---
+
+{% include header.html title=page.name %}
+
+<section class="container-thin container-flex">
+    <div class="one-third">
+        <div class="portrait-container">
+            <img src="{{ page.portrait }}" alt="{{ page.name }}">
+        </div>
+    </div>
+
+    <div class="two-thirds">
+        <h5>{{ page.title }}</h5>
+        <h5>{{ page.institution }}</h5>
+    </div>
+</section>

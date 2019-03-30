@@ -1,19 +1,19 @@
 ---
 layout: base
 title: Invited Experts
-description: We're thankful for every invited guest--presenter, workshop leader, or panelist--that has contributed to past Science & Us events. Learn more about their careers and feel free to contact us to get in touch with them. Especially if you're a past Science & Us attendee, this is <i>your</i> network!
+description: We're thankful for every invited guest--presenter, workshop leader, or panelist--that has contributed to Science & Us events. Learn more about their careers and feel free to contact us to get in touch with them. Especially if you're a Science & Us alum or community member, this is <i>your</i> network!
 ---
 
-{% include header.html title="Invited Experts" description="We're thankful for every invited guest--presenter, workshop leader, or panelist--that has contributed to past Science & Us events. Learn more about their careers and feel free to contact us to get in touch with them. Especially if you're a past Science & Us attendee, this is your network!" %}
+{% include header.html title=page.title description=page.description %}
 
 <section class="container-medium container-flex">
-    {% for speaker in site.invited_experts %}
+    {% for speaker in site.speakers %}
     <div class="one-third">
         <div class="portrait-container">
             <img src="{{ speaker.portrait | prepend:site.url }}" alt="{{ speaker.name }}">
         </div>
 
-        <h5><b>{{ speaker.name }}</b>{% if speaker.title %}, {{ speaker.title }}{% endif %}{% if speaker.institution %} at {{ speaker.institution }}{% endif %}</h5>
+        <h5><a href="{{ speaker.name | slugify }}"><b>{{ speaker.name }}</b></a>{% if speaker.title %}, {{ speaker.title }}{% endif %}{% if speaker.institution %} at {{ speaker.institution }}{% endif %}</h5>
     </div>
     {% endfor %}
 </section>

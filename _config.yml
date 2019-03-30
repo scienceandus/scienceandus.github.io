@@ -12,5 +12,5 @@ sass:
 permalink: /:title
 
 collections:
-  invited_experts:
+  speakers:
     output: true

@@ -64,7 +64,7 @@ makeathon_description: >
                 <h5><b>Past Speakers, Workshop Leaders, & Panelists</b></h5>
 
                 <div class="container-flex">
-                    {% for expert in site.invited_experts limit:6 %}
+                    {% for expert in site.speakers limit:6 %}
                     <div class="one-third">
                         <div class="portrait-container">
                             <img src="{{ expert.portrait }}" alt="{{ expert.name }}">
@@ -73,5 +73,7 @@ makeathon_description: >
                     </div>
                     {% endfor %}
                 </div>
+
+                <a href="/speakers" class="button">View All</a>
             </div>
         </section>
