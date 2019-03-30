@@ -14,6 +14,8 @@ permalink: /:title
 collections:
   speakers:
     output: true
+  team:
+    output: false
 
 defaults:
   -
