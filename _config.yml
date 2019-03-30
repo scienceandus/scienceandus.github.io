@@ -14,3 +14,10 @@ permalink: /:title
 collections:
   speakers:
     output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "base"
