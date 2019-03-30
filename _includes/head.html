@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="{{ site.description }}">
+        <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+        <link rel="stylesheet" type="text/css" href="{{ '/styles.css' | prepend:site.url }}">
+    </head>
+
+    <body>
+        <nav id="global-nav" class="container-medium">
+            <a href="{{ site.url }}" id="global-nav-logo">
+                <img src="{{ '/img/logo.svg' | prepend:site.url }}" alt="{{ site.title }}">
+            </a>
+
+            <ul>
+                {% for link in site.global_nav_links %}
+                <a href="{{ link.url }}">{{ link.name }}</a>
+                {% endfor %}
+            </ul>
+        </nav>

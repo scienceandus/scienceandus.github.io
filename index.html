@@ -1,4 +1,6 @@
 ---
+layout: base
+
 title: Home
 
 hero_title: Making the complex compelling
@@ -17,29 +19,6 @@ makeathon_description: >
     <h4>Whether you're passionate biology or filmmaking, math or creative writing, the Makeathon is for you. Just bring your <b>curiosity</b> and <b>dedication</b>!</h4>
     <a href="mailto:contact@scienceandus.org" class="button">Sponsor</a>
 ---
-
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <meta name="description" content="{{ site.description }}">
-        <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
-        <link rel="stylesheet" type="text/css" href="{{ '/styles.css' | prepend:site.url }}">
-    </head>
-
-    <body>
-        <nav id="global-nav" class="container-medium">
-            <a href="{{ site.url }}" id="global-nav-logo">
-                <img src="{{ '/img/logo.svg' | prepend:site.url }}" alt="{{ site.title }}">
-            </a>
-
-            <ul>
-                {% for link in site.global_nav_links %}
-                <a href="{{ link.url }}">{{ link.name }}</a>
-                {% endfor %}
-            </ul>
-        </nav>
 
         <header class="container-thin">
             <h1>{{ page.hero_title }}</h1>
@@ -96,7 +75,3 @@ makeathon_description: >
                 </div>
             </div>
         </section>
-
-        <script src="https://embed.small.chat/TB9L358G2GGNUMEE6T.js" async></script>
-    </body>
-</html>
