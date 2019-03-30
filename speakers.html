@@ -13,7 +13,7 @@ description: We're thankful for every invited guest--presenter, workshop leader,
             <img src="{{ speaker.portrait | prepend:site.url }}" alt="{{ speaker.name }}">
         </div>
 
-        <h5><a href="{{ speaker.name | slugify }}"><b>{{ speaker.name }}</b></a>{% if speaker.title %}, {{ speaker.title }}{% endif %}{% if speaker.institution %} at {{ speaker.institution }}{% endif %}</h5>
+        <h5><a href="{{ speaker.name | slugify | prepend:'/speakers/' | prepend:site.url }}"><b>{{ speaker.name }}</b></a>{% if speaker.title %}, {{ speaker.title }}{% endif %}{% if speaker.institution %} at {{ speaker.institution }}{% endif %}</h5>
     </div>
     {% endfor %}
 </section>
