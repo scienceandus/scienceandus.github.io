@@ -2,32 +2,86 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <meta name="description" content="Science & Us is a youth-led organization helping high schoolers practice communicating STEM (science, technology, engineering, math) topics and learn about careers bridging STEM and society.">
-        <title>Science & Us | About</title>
-        <link rel="stylesheet" type="text/css" href="http://localhost:4000/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="We help students understand and communicate the science behind what matters to them. We host Makeathons for high schoolers to make multimedia projects that make STEM exciting, and open up careers connecting STEM and the public.">
+        <title>Science and Us | About</title>
+        <link rel="stylesheet" href="http://localhost:4000/css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Barlow:400,700" rel="stylesheet">
     </head>
 
     <body>
-        <nav id="global-nav" class="container-medium">
-            <a href="http://localhost:4000" id="global-nav-logo">
-                <img src="http://localhost:4000/img/logo.svg" alt="Science & Us">
+        <nav id="global-nav" class="container">
+            <a id="nav-logo-a" href="http://localhost:4000">
+                <img id="nav-logo" src="http://localhost:4000/media/logo.svg" alt="Science and Us Logo">
             </a>
 
             <ul>
                 
+                <li><a class="nav-link" href="http://localhost:4000/about">About</a></li>
+                
+                <li><a class="nav-link" href="http://localhost:4000/makeathon">Makeathon</a></li>
+                
+                <li><a class="nav-link" href="http://localhost:4000/stories">Stories</a></li>
+                
+                <li><a class="nav-link" href="http://localhost:4000/news">News</a></li>
+                
+                <li><a class="nav-link" href="http://localhost:4000/donate">Donate</a></li>
+                
             </ul>
         </nav>
+<header>
+    <div id="hero" style="background-image: url(/media/team-and-mentors-overlay.jpg);">
+    </div>
 
-<header class="container-medium">
-    <h1>About</h1>
-    <h3>The world's first organization bringing STEM communication to youth, by youth</h3>
+    <div class="container">
+        <h1>We're a team of high schoolers <br>spreading the knowledge <br>that changed our lives</h1>
+    </div>
 </header>
-
 <section class="container-thin">
-    <p>We are Science & Us</p>
-</section>
+    <p>Coming soon!</p>
 
-        <script src="https://embed.small.chat/TB9L358G2GGNUMEE6T.js" async></script>
+</section>
+        <footer class="container flexbox">
+            <div class="half">
+                <a href="http://localhost:4000">
+                    <img class="logo" src="/media/logo.svg" alt="Science and Us Logo">
+                </a>
+
+                
+                <a href="https://www.instagram.com/scienceandus/" class="social-icon">
+                    <img src="/icons/ig.svg" alt="Instagram: @scienceandus">
+                </a>
+                
+                <a href="https://www.facebook.com/sciandus" class="social-icon">
+                    <img src="/icons/fb.svg" alt="Facebook: @sciandus">
+                </a>
+                
+                <a href="https://twitter.com/scienceandus" class="social-icon">
+                    <img src="/icons/twitter.svg" alt="Twitter: @scienceandus">
+                </a>
+                
+
+                <p>Based in Massachusetts, USA</p>
+            </div>
+            <div class="half">
+                <p>Science and Us is fiscally sponsored by <a href="https://hackclub.com/bank/">The Hack Foundation</a>, a 501(c)(3) nonprofit. (EIN: 81-2908499)</p>
+            </div>
+        </footer>
+        
+        <script>
+        // Shrink nav on scroll
+        function resizeNavOnScroll() {
+            const distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 100,
+                navEl = document.getElementById('global-nav');
+            if (distanceY > shrinkOn) {
+                navEl.classList.add('nav-scroll');
+            } else {
+                navEl.classList.remove('nav-scroll');
+            }
+        }
+        window.addEventListener('scroll', resizeNavOnScroll);
+        </script>
     </body>
 </html>

@@ -1,87 +1,47 @@
 ---
-layout: base
-
 title: Home
-
-hero_title: Making the complex compelling
-
-hero_subtitle: We help high schoolers communicate complex topics and learn about careers bridging STEM and society.
-
-first_section_heading: Translate tough but important STEM topics to non-experts
-
-first_section_description: >
-    From pollution to cybersecurity, <b>all of today's pressing issues all involve <abbr title="science, technology, engineering, math">STEM</abbr>, but matter to people beyond those fields</b>. Understanding STEM is crucial, but not everyone needs (or wants) to be a scientist. That's where <span class="und">STEM communication</span>—making complex topics engaging and accessible for diverse audiences—comes in.
-
-makeathon_description: >
-    <h4><b>August 17, 2019 @ MIT</b></h4>
-    <h4>We bring together 50 high schoolers for a day of <b>creating projects—articles, podcasts, art</b>—to describe a STEM topic of your choice to general audiences.</h4>
-    <h4>We'll provide food, hands-on workshops, and opportunities to meet and learn from the coolest people in STEM communication.</h4>
-    <h4>Whether you're passionate biology or filmmaking, math or creative writing, the Makeathon is for you. Just bring your <b>curiosity</b> and <b>dedication</b>!</h4>
-    <a href="mailto:contact@scienceandus.org" class="button">Sponsor</a>
+hero-img-url: /media/hero.jpg
+hero-img-description: Science and Us event attendees
+hero-content: >
+    <h1>We help students <br>communicate the science <br>behind what matters to them</h1>
 ---
 
-        <header class="container-thin">
-            <h1>{{ page.hero_title }}</h1>
-            <h3>{{ page.hero_subtitle }}</h3>
+    <article>
+        <h2>Our Mission</h2>
+        <p>Whether you love art, astrophysics, or anything in between, science impacts your life and the issues you care about. That means we need a better bridge between science… and <i>us</i>. Science and Us is a youth-led nonprofit dedicated to building that bridge.</p>
+        <a href="about" class="button button-primary">Learn More</a>
+    </article>
 
-            <nav id="hero-nav">
-                {% for link in page.hero_nav_links %}
-                <a href="{{ link.url }}" class="button">{{ link.name }}</a>
-                {% endfor %}
+    <article>
+        <img src="/media/first-event-students-laughing.jpg" alt="Science and Us participants at a table at our first event laughing, with social issues on the board in the background">
+    </article>
 
-                <!-- Begin Mailchimp Signup Form -->
-                <div id="mc_embed_signup">
-                    <form action="https://scienceandus.us18.list-manage.com/subscribe/post?u=c6950b66f33222f9206528e94&amp;id=ca6a447e00" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
-                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c6950b66f33222f9206528e94_ca6a447e00" tabindex="-1" value=""></div>
-                            <input type="submit" value="Get updates" name="subscribe" id="mc-embedded-subscribe" class="button">
-                        </div>
-                    </form>
-                </div>
-                <!--End mc_embed_signup-->
+    <article>
+        <img src="/media/second-event-stop-motion.jpg" alt="Attendees at December 2018 event making stop motion animations with Play-doh">
+    </article>
 
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin-top: 1rem">
-                    <input type="hidden" name="cmd" value="_s-xclick" />
-                    <input type="hidden" name="hosted_button_id" value="FVY9ZBGMLAAM8" />
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                    </form>
-                                      
-            </nav>
-        </header>
+    <article>
+        <h2>Join us at our Makeathons</h2>
+        
+        <p>We organize hands-on Makeathons where high schoolers create media projects that explain STEM topics to various audiences. We invite awesome, down-to-earth experts who show that it’s possible build a fulfilling, unique career from a range of interests.</p>
 
-        <section class="container-flex container-thin">
-            <div class="one-third">
-                <h2>{{ page.first_section_heading }}</h2>
-            </div>
+        <p><b>Our next Makeathon is on Saturday, August 17, 2019, at MIT—apply today! All we’re looking for is a willingness to learn. (You don’t need to be a “science person!”)</b></p>
 
-            <div class="two-thirds">
-                <h4>{{ page.first_section_description }}</h4>
-            </div>
-        </section>
+        <a href="makeathon" class="button button-primary">Apply Today</a>
 
-        <section class="container-flex container-medium">
-            <div class="one-third">
-                <h2>Science & Us <span class="und">Makeathon</span></h2>
-                <h4>{{ page.makeathon_description }}</h4>
-            </div>
+        <p>Empowering youth to approach, understand, and solve interdisciplinary problems, including the world’s biggest challenges, is only possible through the generosity of sponsors. If your organization wants to inspire the next generation, we’d love to talk to you.</p>
 
-            <div class="two-thirds">
-                <h5><b>Past Speakers, Workshop Leaders, & Panelists</b></h5>
+        <a href="donate" class="button button-primary">Explore Sponsorship</a>
+    </article>
 
-                <div class="container-flex">
-                    {% for expert in site.speakers limit:6 %}
-                    <div class="one-third">
-                        <div class="portrait-container">
-                            <img src="{{ expert.portrait | prepend:'/img/speakers/' | prepend:site.url }}" alt="{{ expert.name }}">
-                        </div>
-                        <h5><b>{{ expert.name }}</b>{% if expert.institution %}, {{ expert.institution }}{% endif %}</h5>
-                    </div>
-                    {% endfor %}
-                </div>
+    <article>
+        <h2>Finding your place in STEM shouldn't be left to chance</h2>
 
-                <a href="/speakers" class="button">View All</a>
-            </div>
-        </section>
+        <p>Today, people connecting science and society—through science policy, illustration, journalism, education, and more—are the ones who will change the world. However, the vast majority of students aren’t aware of these opportunities, or how to reach them. That knowledge positively changes students’ lives, and we wholeheartedly believe it should be accessible to everyone.</p>
+    </article>
+
+    <article>
+        <p>We’re currently working on a book called Stories of Science and Us, a collection of honest, personal journeys and advice from diverse people bridging science and society. We aim to distribute Stories to classrooms, organizations, and youth across the country. Now is your chance to play a key role in the development of Stories—let us know what you’re looking for, or volunteer to be interviewed for the book!</p>
+
+        <p>More information coming soon!</p>
+    </article>

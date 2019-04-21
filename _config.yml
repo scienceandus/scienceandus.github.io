@@ -1,31 +1,38 @@
-title: Science & Us
 url: https://scienceandus.org
-description: Science & Us is a youth-led organization helping high schoolers practice communicating STEM (science, technology, engineering, math) topics and learn about careers bridging STEM and society.
+title: Science and Us
+description: We help students understand and communicate the science behind what matters to them. We host Makeathons for high schoolers to make multimedia projects that make STEM exciting, and open up careers connecting STEM and the public.
 
-global_nav_links:
-#  - name: About
-#    url: /about
+logo-url: /media/logo.svg
+
+nav-links:
+  - name: About
+    url: /about
+  - name: Makeathon
+    url: /makeathon
+  - name: Stories
+    url: /stories
+  - name: News
+    url: /news
+  - name: Donate
+    url: /donate
+
+social-links:
+  - url: https://www.instagram.com/scienceandus/
+    platform-icon-url: /icons/ig.svg
+    platform-and-username: "Instagram: @scienceandus"
+  - url: https://www.facebook.com/sciandus
+    platform-icon-url: /icons/fb.svg
+    platform-and-username: "Facebook: @sciandus"
+  - url: https://twitter.com/scienceandus
+    platform-icon-url: /icons/twitter.svg
+    platform-and-username: "Twitter: @scienceandus"
 
 sass:
   style: compressed
 
-permalink: /:title
-
-collections:
-  speakers:
-    output: true
-  team:
-    output: false
-
 defaults:
   -
     scope:
-      path: ""
+      path: "" # an empty string here means all files in the project
     values:
-      layout: "base"
-  -
-    scope:
-      path: ""
-      type: "speakers"
-    values:
-      layout: "speaker"
+      layout: "default"

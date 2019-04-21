@@ -1,3 +1,35 @@
-        <script src="https://embed.small.chat/TB9L358G2GGNUMEE6T.js" async></script>
+        <footer class="container flexbox">
+            <div class="half">
+                <a href="{{ site.url }}">
+                    <img class="logo" src="{{ site.logo-url }}" alt="{{ site.title }} Logo">
+                </a>
+
+                {% for link in site.social-links %}
+                <a href="{{ link.url }}" class="social-icon">
+                    <img src="{{ link.platform-icon-url }}" alt="{{ link.platform-and-username }}">
+                </a>
+                {% endfor %}
+
+                <p>Based in Massachusetts, USA</p>
+            </div>
+            <div class="half">
+                <p>Science and Us is fiscally sponsored by <a href="https://hackclub.com/bank/">The Hack Foundation</a>, a 501(c)(3) nonprofit. (EIN: 81-2908499)</p>
+            </div>
+        </footer>
+        
+        <script>
+        // Shrink nav on scroll
+        function resizeNavOnScroll() {
+            const distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 100,
+                navEl = document.getElementById('global-nav');
+            if (distanceY > shrinkOn) {
+                navEl.classList.add('nav-scroll');
+            } else {
+                navEl.classList.remove('nav-scroll');
+            }
+        }
+        window.addEventListener('scroll', resizeNavOnScroll);
+        </script>
     </body>
 </html>
