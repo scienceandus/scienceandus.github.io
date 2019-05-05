@@ -36,4 +36,9 @@ section img {
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 2.5rem;
     }
+
+    .fourths {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1rem;
+    }
 }

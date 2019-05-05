@@ -2,6 +2,7 @@
 name: Emma Colaco
 role: 
 portrait: 
-bio: 
+bio:
+order-number: 2  
 ---
 

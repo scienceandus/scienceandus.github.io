@@ -41,19 +41,10 @@ We're currently compiling stories and advice from diverse science communicators 
 
 ## Meet the team
 
-**Katherine Huang**
-
-**Parin Shaik**
-
-**Kumi Devalla**
-
-**Hadiya Giwa**
-
-**Emma Colaco**
-
-**Minh Phan**
-
-**Emily Tan**
+{% assign ordered-team-members = site.team-members | sort: "order-number" %}
+{% for member in ordered-team-members %}
+**{{ member.name }}**
+{% endfor %}
 
 We're always looking for driven, authentic people to join our team—if you're looking to grow and empower your peers at the same time, send us a message at [contact@scienceandus.org](mailto:contact@scienceandus.org)!
 

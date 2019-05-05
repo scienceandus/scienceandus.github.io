@@ -2,6 +2,7 @@
 name: Hadiya Giwa
 role: 
 portrait: 
-bio: 
+bio:
+order-number: 2  
 ---
 
