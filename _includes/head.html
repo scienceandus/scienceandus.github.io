@@ -4,21 +4,33 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
         <meta name="description" content="{{ site.description }}">
         <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+
         <link rel="stylesheet" href="{{ '/css/styles.css' | prepend:site.url }}">
         <link href="https://fonts.googleapis.com/css?family=Barlow:400,700" rel="stylesheet">
     </head>
 
     <body>
-        <nav id="global-nav" class="container">
-            <a id="nav-logo-a" href="{{ site.url }}">
-                <img id="nav-logo" src="{{ '/media/logo.svg' | prepend:site.url }}" alt="{{ site.title }} Logo">
-            </a>
+        <nav id="global-nav">
+            <div id="menuToggle">
+                <input type="checkbox" />
 
-            <ul>
-                {% for link in site.nav-links %}
-                <li><a class="nav-link" href="{{ link.url | prepend:site.url }}">{{ link.name }}</a></li>
-                {% endfor %}
-            </ul>
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul id="menu">
+                    <a id="nav-logo-a" href="{{ site.url }}">
+                        <img id="nav-logo" src="{{ '/media/logo.svg' | prepend:site.url }}" alt="{{ site.title }} Logo">
+                    </a>
+
+                    <ul>
+                        {% for link in site.nav-links %}
+                        <li><a class="nav-link" href="{{ link.url | prepend:site.url }}">{{ link.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </ul>
+            </div>
         </nav>

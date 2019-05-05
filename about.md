@@ -1,5 +1,6 @@
 ---
 title: About
+layout: default-with-hero
 hero-img-url: /media/team-and-mentors-overlay.jpg
 hero-img-description: Science and Us event attendees
 hero-content: <h1>We're a team of high schoolers <br>spreading the knowledge <br>that changed our lives</h1>
@@ -31,7 +32,7 @@ Our Makeathons have been sponsored by [Science in the News](https://sitn.hms.har
 
 We love sharing our experiences with and learning from the broader science communication community! We presented at **[Science Talk](https://sciencetalk.org)** in Portland, OR, and attended the 2018 **[ComSciCon](https://comscicon.com)** National Workshop and [Science Media Awards and Summit in the Hub](https://sciencemediasummit.org).
 
-We're currently compiling stories and advice from diverse science communicators into a book called *Stories of Science and Us*. We aim to distribute this book to classrooms across the country, because finding your place in STEM communication should be accessible to everyone.
+We're currently compiling stories and advice from diverse science communicators into a **book called *Stories of Science and Us***. We aim to distribute this book to classrooms across the country, because finding your place in STEM communication should be accessible to everyone.
 
 </article>
 
