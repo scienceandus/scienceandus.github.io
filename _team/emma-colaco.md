@@ -1,6 +1,7 @@
 ---
 name: Emma Colaco
-role:
-portrait:
+role: 
+portrait: 
 bio: 
 ---
+

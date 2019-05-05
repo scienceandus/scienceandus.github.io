@@ -1,6 +1,7 @@
 ---
 name: Kumudini Devalla
-role:
-portrait:
+role: 
+portrait: 
 bio: 
 ---
+

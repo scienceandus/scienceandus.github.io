@@ -1,6 +1,7 @@
 ---
 name: Parin Shaik
-role:
-portrait:
+role: 
+portrait: 
 bio: 
 ---
+
