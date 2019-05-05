@@ -1,0 +1,39 @@
+.container, .container-thin {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+section {
+    background: $off-white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+section img {
+    width: 100%;
+}
+
+.row {
+    display: grid;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 45rem) {
+    .container, .container-thin {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media (min-width: 80rem) {
+    .container-thin {
+        padding-left: 17.5%;
+        padding-right: 17.5%;
+    }
+
+    .half-half {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2.5rem;
+    }
+}
