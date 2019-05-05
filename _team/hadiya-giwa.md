@@ -1,6 +1,7 @@
 ---
 name: Hadiya Giwa
-role:
-portrait:
+role: 
+portrait: 
 bio: 
 ---
+

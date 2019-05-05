@@ -1,6 +1,7 @@
 ---
 name: Minh Phan
-role:
-portrait:
+role: 
+portrait: 
 bio: 
 ---
+

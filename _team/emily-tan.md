@@ -1,6 +1,7 @@
 ---
 name: Emily Tan
-role:
-portrait:
+role: 
+portrait: 
 bio: 
 ---
+

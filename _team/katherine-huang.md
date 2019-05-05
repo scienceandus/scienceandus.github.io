@@ -1,6 +1,7 @@
 ---
 name: Katherine Huang
 role: Founder and Executive Director
-portrait:
+portrait: 
 bio: A story only I can tell
 ---
+
