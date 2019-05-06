@@ -2,12 +2,12 @@
 title: Science and Us
 timezone: UTC
 collections:
-  team-members:
-    title: Team Members
-    output: false
   posts:
     title: Posts
     output: true
+  team-members:
+    title: Team Members
+    output: false
   uploads:
     title: Uploads
     output: true
