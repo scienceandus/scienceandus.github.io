@@ -43,7 +43,7 @@ Whether you love art, astrophysics, or anything in between, science impacts your
 
 We organize a hands-on Makeathon for high schoolers to create media projects explaining STEM topics to various audiences. We invite awesome, down-to-earth experts who show that it's possible to build a unique, fulfilling career from a range of interests.
 
-**Our Makeathon is Saturday, August 17, 2019 at MIT. Apply today! All we're looking for is a willingness to learn. (Ypu don't need to be a "science person!")**
+**Our Makeathon is Saturday, August 17, 2019 at MIT. Apply today! All we're looking for is a willingness to learn. (You don't need to be a "science person!")**
 
 <a href="makeathon" class="button button-primary">Apply Today</a>
 
