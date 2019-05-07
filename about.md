@@ -42,9 +42,14 @@ We're currently compiling stories and advice from diverse science communicators 
 ## Meet the team
 
 {% assign ordered-team-members = site.team-members | sort: "order-number" %}
+<div class="row fourths">
 {% for member in ordered-team-members %}
+<div class="person" markdown="1">
 **{{ member.name }}**
+![]({{ member.portrait }})
+</div>
 {% endfor %}
+</div>
 
 We're always looking for driven, authentic people to join our team—if you're looking to grow and empower your peers at the same time, send us a message at [contact@scienceandus.org](mailto:contact@scienceandus.org)!
 

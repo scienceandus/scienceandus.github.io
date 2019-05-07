@@ -11,18 +11,18 @@
 }
 
 .header-small {
-    height: 10rem;
+    height: 20rem;
     background: $off-black;
 }
 
 .hero-content-container {
-    padding-top: 9rem;
+    padding-top: 10rem;
     width: 100%;
     height: 100%;
 }
 
 @media (min-width: 45rem) {
     .header-with-hero .hero-content-container {
-        padding-top: 11rem;
+        padding-top: 13rem;
     }
 }

@@ -1,6 +1,13 @@
-p {
+p, li {
     font-size: 1.15rem;
     line-height: 140%;
-    margin: 1.15rem 0;
     color: $dark-gray;
+}
+
+p {
+    margin: 1.15rem 0;
+}
+
+li {
+    margin: .5rem 0 .5rem 2rem;
 }

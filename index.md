@@ -3,7 +3,7 @@ title: Home
 layout: default-with-hero
 hero-img-url: "/media/hero.jpg"
 hero-img-description: Science and Us event attendees
-hero-content: "<h1>We help students <br>communicate the science <br>behind what matters
+hero-content: "<h1>We help students <br>communicate the science behind <br>what matters
   to them</h1>"
 ---
 

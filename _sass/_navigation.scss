@@ -50,6 +50,10 @@ input[type="submit"] { transition: .15s }
 }
 
 @media (max-width: 80rem) {
+    br {
+        display: none;
+    }
+
     #nav-logo-a-mobile {
         display: block;
         position: fixed;
