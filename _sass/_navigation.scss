@@ -45,7 +45,23 @@ input[type="submit"] { transition: .15s }
 .nav-scroll { background: $off-black }
 .nav-scroll #nav-logo { height: 3.5rem }
 
+#nav-logo-a-mobile {
+    display: none;
+}
+
 @media (max-width: 80rem) {
+    #nav-logo-a-mobile {
+        display: block;
+        position: fixed;
+        top: 1rem;
+        right: 5%;
+        z-index: 2;
+    }
+
+    #nav-logo-a {
+        display: none;
+    }
+
     nav {
         padding: 0;
         height: 0;
@@ -56,14 +72,14 @@ input[type="submit"] { transition: .15s }
     }
 
     #nav-logo, .nav-scroll #nav-logo {
-        height: 4rem;
+        height: 2.5rem;
     }
 
     #menuToggle {
         display: block;
         position: relative;
-        top: 2rem;
-        padding-left: 2rem;
+        top: 1.5rem;
+        padding-left: 5%;
         z-index: 1;
         -webkit-user-select: none;
         user-select: none;
@@ -91,8 +107,8 @@ input[type="submit"] { transition: .15s }
         z-index: 1;
         transform-origin: 4px 0;
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                     opacity 0.55s ease;
+        z-index: 2;
     }
     
     #menuToggle span:first-child { transform-origin: 0% 0% }
@@ -111,13 +127,14 @@ input[type="submit"] { transition: .15s }
     #menu {
         position: absolute;
         width: 100%;
-        margin: -100px 0 0 -2rem;
-        padding: 8rem 1.5rem 2rem;
+        margin: -100px 0 0 -5%;
+        padding: 7rem 1.5rem 2rem;
         background: $off-black;
         -webkit-font-smoothing: antialiased;
         transform-origin: 0% 0%;
         transform: translate(-100%, 0);
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+        z-index: 1;
     }
     
     .nav-link {
