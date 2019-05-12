@@ -22,7 +22,7 @@ label {
     font-weight: bold;
 }
 
-form input {
+form input, textarea {
     padding: .3rem .5rem;
     margin-top: .25rem;
     border-radius: .5rem;
@@ -30,10 +30,15 @@ form input {
     outline: none;
 }
 
-form input:active, form input:focus {
+form input:focus, textarea:focus {
     box-shadow: 0 0 5px 1px $light-gray;
 }
 
 input.button {
     border: none;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
 }
