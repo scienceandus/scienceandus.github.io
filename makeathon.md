@@ -2,7 +2,7 @@
 title: Makeathon
 ---
 
-<form action="https://docs.google.com/forms/d/e/1FAIpQLSe_3fokD7yYpGuTGhPrWj_vPAqKTtaAOvnR-M_9fXXGfa9hLA/formResponse" method="POST" target="_self">
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSe_3fokD7yYpGuTGhPrWj_vPAqKTtaAOvnR-M_9fXXGfa9hLA/formResponse" method="POST" target="secret-frame" onsubmit="redirectToThanksPage();">
     <div class="form-header">
         <h2 class="form-title">Pre-Register for the Science and Us Makeathon</h2>
         <p class="form-description">The Science and Us Makeathon will be on Saturday, August 17, at the Massachusetts Institute of Technology. The event is from about 9 AM to 5 PM and is free of charge. All high school and middle school students are welcome! After pre-registering, we'll email you with the next step.</p>
@@ -47,8 +47,16 @@ title: Makeathon
             </div>
         </div>
     </div>
-    <input type="submit" class="button" value="Submit">
+    <input type="submit" class="button" value="Submit" id="prereg-submit">
 </form>
+
+<iframe name="secret-frame" width="0" height="0" border="0" style="display: none;"></iframe>
+
+<script>
+function redirectToThanksPage() {
+    window.location = '/preregistered';
+}
+</script>
 
 
 ## Overview
