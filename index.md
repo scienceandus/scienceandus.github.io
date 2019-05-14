@@ -66,6 +66,8 @@ Today, people connecting science and society are the ones who will change the wo
 
 We're writing a book called **Stories of Science and Us**, a collection of honest, personal journeys and advice from diverse people bridging science and the public. We plan to share **Stories** with classrooms across the country. Now is your chance to play a key role in its development—let us know what you're looking for, or volunteer to be interviewed for the book!
 
-More information coming soon!
+<a href="stories#input" class="button button-primary">Share Input for Book</a>
+
+<a href="stories#interview" class="button button-primary">Nominate an Interviewee</a>
 
 </div>
