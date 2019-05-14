@@ -1,6 +1,5 @@
 ---
 title: Emma Colaco
-name: Emma Colaco
 role: 
 portrait: 
 bio: 

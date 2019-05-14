@@ -1,8 +1,7 @@
 ---
 title: Minh Phan
-name: Minh Phan
 role: 
-portrait: 
+portrait: "/media/team-members/minh.jpg"
 bio: 
 order-number: 2
 ---

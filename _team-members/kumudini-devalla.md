@@ -1,6 +1,5 @@
 ---
-title: Kumudini Devalla
-name: Kumudini Devalla
+title: Kumudini (Kumi) Devalla
 role: 
 portrait: 
 bio: 

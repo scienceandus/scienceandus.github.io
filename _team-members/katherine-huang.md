@@ -1,8 +1,7 @@
 ---
-title: Katherine Huang
-name: Katherine Huang
+title: Katherine (Kat) Huang
 role: Founder and Executive Director
-portrait: 
+portrait: "/media/team-members/kat.jpg"
 bio: 
 order-number: 1
 ---

@@ -28,8 +28,6 @@ nav-links:
   url: "/makeathon"
 - name: Stories
   url: "/stories"
-- name: News
-  url: "/news"
 - name: Donate
   url: "/donate"
 social-links:

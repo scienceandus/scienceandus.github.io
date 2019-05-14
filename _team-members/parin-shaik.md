@@ -1,8 +1,7 @@
 ---
 title: Parin Shaik
-name: Parin Shaik
 role: 
-portrait: 
+portrait: "/media/team-members/parin.jpg"
 bio: 
 order-number: 2
 ---
