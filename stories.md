@@ -2,7 +2,7 @@
 title: Stories of Science and Us
 ---
 
-<form action="https://docs.google.com/forms/d/e/1FAIpQLSdK_x_lI4xbtZT3rKFM3CvACAq2WgMWJn0BNF4_XrzH4GXXKg/formResponse" id="mG61Hd" method="POST" target="secret-frame" onsubmit="redirectToPostInput();">
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSdK_x_lI4xbtZT3rKFM3CvACAq2WgMWJn0BNF4_XrzH4GXXKg/formResponse" id="mG61Hd" method="POST" target="secret-frame" onsubmit="showInputSuccess();">
     <div class="form-header">
         <h2 class="form-title">Tell us what you want to see in Stories of Science and Us</h2>
         <p class="form-description">We're writing this book to help middle and high schoolers discover opportunities to be their full selves. We aim to raise awareness of careers connecting STEM and the public—including science policy, journalism, education, art, and more, as well as doing science while engaging with society. Let us know how we can best do that!</p>
@@ -75,9 +75,10 @@ title: Stories of Science and Us
         </div>
     </div>
     <input type="submit" class="button" value="Submit">
+    <p id="input-success" style="display:none">YAY! Thanks so much for sharing your thoughts with us—we'll read all of it. In the meantime, feel free to share this with your friends and/or on social media!</p>
 </form>
 
-<form action="https://docs.google.com/forms/d/e/1FAIpQLSf6CSlnqcbbLVbtbFnQjJplSlxob3WHQxak4qKS55cxuANHjQ/formResponse" method="POST" target="secret-frame" onsubmit="redirectToPostInterview();">
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSf6CSlnqcbbLVbtbFnQjJplSlxob3WHQxak4qKS55cxuANHjQ/formResponse" method="POST" target="secret-frame" onsubmit="showInterviewSuccess();">
     <div class="form-header">
         <h2 class="form-title">Apply to be interviewed for Stories of Science and Us</h2>
         <p class="form-description">We welcome people of all ages and backgrounds, especially those underrepresented and marginalized in STEM and science communication. Being interviewed does not guarantee a spot in the book, and we'll contact you soon with more details.</p>
@@ -140,11 +141,12 @@ title: Stories of Science and Us
         </div>
     </div>
     <input type="submit" class="button" value="Submit">
+    <p id="interview-success" style="display:none">YAY! We're glad you're interested in sharing your science communication story with us, and will contact you soon with more details. In the meantime, feel free to share this form with other interesting people you know!</p>
 </form>
 
 <iframe name="secret-frame" width="0" height="0" border="0" style="display: none;"></iframe>
 
 <script>
-function redirectToPostInterview() { window.location = '/interview' }
-function redirectToPostInput() { window.location = '/input' }
+function showInterviewSuccess() { document.getElementById('interview-success').style.display = "block" }
+function showInputSuccess() { document.getElementById('input-success').style.display = "block" }
 </script>

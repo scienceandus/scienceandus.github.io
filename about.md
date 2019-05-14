@@ -27,7 +27,7 @@ The problem? Most high schoolers (and even undergraduates!) aren't aware of thes
 
 ## What we do
 
-We host **[Makeathons](https://scienceandus.org/makeathons)** where students create podcasts, art, and articles that explain STEM topics to various audiences, with guidance from professional science communicators.
+We host **[Makeathons](https://scienceandus.org/makeathon)** where students create podcasts, art, and articles that explain STEM topics to various audiences, with guidance from professional science communicators.
 
 Our Makeathons have been sponsored by [Science in the News](https://sitn.hms.harvard.edu) and the [Harvard/MIT COOP](https://store.thecoop.com/coop-gives/), and included experts from [STAT](https://www.statnews.com/) and Boston-area universities, as well as freelancers like [Wade Roush](http://www.waderoush.com/).
 
