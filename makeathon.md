@@ -77,6 +77,15 @@ Our events wouldn't be possible without the generosity of our supporters. We've 
 
 ## Past Workshop Leaders & Panelists
 
+<div class="row fourths">
+{% for speaker in site.speakers %}
+<div class="person" markdown="1">
+**{{ speaker.name }}**
+![{{ speaker.name }}]({{ speaker.portrait | prepend: "/media/speakers/" | prepend:site.url }})
+</div>
+{% endfor %}
+</div>
+
 ## Past Event Recaps
 
 ### December 8, 2018

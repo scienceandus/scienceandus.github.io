@@ -11,6 +11,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  speakers:
+    title: Speakers
+    output: false
 defaults:
 - scope:
     path: ''

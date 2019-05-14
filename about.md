@@ -50,7 +50,7 @@ We're always open to driven, authentic people joining our team—if you're looki
 {% for member in ordered-team-members %}
 <div class="person" markdown="1">
 **{{ member.title }}**
-![]({{ member.portrait }})
+![{{ member.title }}]({{ member.portrait }})
 </div>
 {% endfor %}
 </div>
