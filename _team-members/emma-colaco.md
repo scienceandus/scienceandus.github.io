@@ -1,7 +1,7 @@
 ---
 title: Emma Colaco
 role: 
-portrait: 
+portrait: "/media/team-members/emma.jpg"
 bio: 
 order-number: 2
 ---
