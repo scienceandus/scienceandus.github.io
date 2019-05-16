@@ -2,6 +2,20 @@
 title: Stories of Science and Us
 ---
 
+When thirteen-year-old Parin's parents signed her up for a "science communication" event, she wondered, "Why would I go to an event that's probably about writing lab reports?" After all, she spends most of her time in theater classes, not studying science.
+
+An hour into the event, though, Parin found herself excitedly jotting down notes instead of doodling Sailor Moon-inspired characters (as she was prone to do during biology class). What changed? When a workshop leader demonstrated using Twitter to share science, Parin realized that there were more ways to interact with science than she'd thought.
+
+Science and Us is a youth-led nonprofit teaching teens how to communicate—and by extension, understand—STEM. Science and Us opened up a new world for Parin, one where Sailor Moon and photosynthesis could coexist. Now, as the youngest member of our team, she's helping make that change in others' lives too.
+
+![Part of the Science and Us team with Gabi Serrato Marks (right) of Communicating Science at MIT and Mackenzie Lemieux, an event volunteer](/media/team.jpg)
+
+*Part of the Science and Us team with Gabi Serrato Marks (right) of Communicating Science at MIT and Mackenzie Lemieux, an event volunteer*
+
+But Parin is lucky. There are thousands of programs getting young people into STEM, but virtually none focused on communicating it, or highlighting ways to appreciate science without being a scientist. Careers in science media, policy, and outreach—which are important to society and fulfill students' wide-ranging interests—are almost never mentioned in school. We're changing that.
+
+We're interviewing dozens of diverse people who bridge STEM and the public, then compiling their stories and advice into a book. We'll share this book and free excerpts with classrooms across the country, because finding a place for STEM in your life shouldn't depend on luck.
+
 <form id="input" action="https://docs.google.com/forms/d/e/1FAIpQLSdK_x_lI4xbtZT3rKFM3CvACAq2WgMWJn0BNF4_XrzH4GXXKg/formResponse" id="mG61Hd" method="POST" target="secret-frame" onsubmit="showInputSuccess();">
     <div class="form-header">
         <h2 class="form-title">Tell us what you want to see in Stories of Science and Us</h2>
