@@ -4,7 +4,7 @@ layout: default-with-hero
 hero-img-url: "/media/hero.jpg"
 hero-img-description: Science and Us event attendees
 hero-content: "<h1>We help students <br>communicate the science behind <br>what matters
-  to them</h1>"
+  to them</h1><a class='button button-primary' href='https://igg.me/at/scienceandus'>Buy Our Book</a>"
 ---
 
 <div class="row half-half" markdown="1">
@@ -13,7 +13,7 @@ hero-content: "<h1>We help students <br>communicate the science behind <br>what 
 
 ## Our Mission
 
-Whether you love art, astrophysics, or anything in between, science impacts your life and the issues you care about. That means we need a better bridge between science… and *us*. **Science and Us** is a youth-led nonprofit dedicated to building that bridge.
+Whether you love art, astrophysics, or anything in between, science impacts your life and the issues you care about. That means we need a better bridge between science… and *us*. **Science and Us** is a youth-led nonprofit dedicated to building that bridge. [Learn more](/about)
 
 <a href="join" class="button button-primary">Join the Team</a>
 
@@ -41,15 +41,15 @@ Whether you love art, astrophysics, or anything in between, science impacts your
 
 ## Join us at our Makeathon
 
-We organize a hands-on Makeathon for high schoolers to create media projects explaining STEM topics to various audiences. We invite awesome, down-to-earth experts who show that it's possible to build a unique, fulfilling career from a range of interests.
+On August 17, 2019, at MIT, we're hosting a free Makeathon for middle and high school students from any school.
 
-**Our Makeathon is Saturday, August 17, 2019 at MIT. Apply today! All we're looking for is a willingness to learn. (You don't need to be a "science person!")**
+We invite awesome, down-to-earth experts to help you create articles, podcasts, and art communicating STEM topics. By the end of the day, you'll have a cool project to take home, plus a couple new friends (not to take home).
 
-<a href="makeathon" class="button button-primary">Apply Today</a>
+Did we mention? There's also free food!
 
-Empowering youth to approach and solve the world's interdisciplinary problems is only possible through the generosity of our sponsors. If you want to inspire the next generation, we'd love to talk to you.
+<a href="makeathon" class="button button-primary">Sign Up Today</a>
 
-<a href="donate" class="button button-primary">See Sponsorship Details</a>
+[Read about our past 2 events](/makeathon)
 
 </article>
 
@@ -58,16 +58,24 @@ Empowering youth to approach and solve the world's interdisciplinary problems is
 
 
 
-<div class="row" markdown="1">
+<div class="row half-half" markdown="1">
 
-## Finding your place in STEM shouldn't be left to chance
+<article markdown="1">
+
+## Stories of Science and Us
 
 Today, people connecting science and society are the ones who will change the world. Unfortunately, most students aren't aware of opportunities in science policy, media, education, and more—or how to pursue them. That knowledge changes lives, and we wholeheartedly believe it should be accessible to everyone.
 
 We're writing a book called **Stories of Science and Us**, a collection of honest, personal journeys and advice from diverse people bridging science and the public. We plan to share **Stories** with classrooms across the country. Now is your chance to play a key role in its development—let us know what you're looking for, or volunteer to be interviewed for the book!
 
-<a href="stories#input" class="button button-primary">Share Input for Book</a>
+<a href="https://igg.me/at/scienceandus" class="button button-primary">Pre-Order Our Book</a>
 
-<a href="stories#interview" class="button button-primary">Nominate an Interviewee</a>
+</article>
+
+<article markdown="1">
+
+![Stories of Science and Us Indiegogo campaign card](/media/campaigncard.png)
+
+</article>
 
 </div>

@@ -29,7 +29,7 @@ nav-links:
   url: "/about"
 - name: Makeathon
   url: "/makeathon"
-- name: Stories
+- name: Book
   url: "/stories"
 - name: Donate
   url: "/donate"
