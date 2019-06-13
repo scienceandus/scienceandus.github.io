@@ -4,7 +4,8 @@ layout: default-with-hero
 hero-img-url: "/media/hero.jpg"
 hero-img-description: Science and Us event attendees
 hero-content: "<h1>We help students <br>communicate the science behind <br>what matters
-  to them</h1><a class='button button-primary' href='https://igg.me/at/scienceandus'>Buy Our Book</a>"
+  to them</h1><a class='button button-primary' href='https://igg.me/at/scienceandus'>Buy
+  Our Book</a>"
 ---
 
 <div class="row half-half" markdown="1">
