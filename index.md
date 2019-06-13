@@ -47,7 +47,7 @@ We invite awesome, down-to-earth experts to help you create articles, podcasts, 
 
 Did we mention? There's also free food!
 
-<a href="makeathon" class="button button-primary">Sign Up Today</a>
+<a href="signup" class="button button-primary">Sign Up Today</a>
 
 [Read about our past 2 events](/makeathon)
 

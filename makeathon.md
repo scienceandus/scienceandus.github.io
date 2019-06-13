@@ -2,63 +2,9 @@
 title: Makeathon
 ---
 
-<form action="https://docs.google.com/forms/d/e/1FAIpQLSe_3fokD7yYpGuTGhPrWj_vPAqKTtaAOvnR-M_9fXXGfa9hLA/formResponse" method="POST" target="secret-frame" onsubmit="showSuccess();">
-    <div class="form-header">
-        <h2 class="form-title">Pre-Register for the Science and Us Makeathon</h2>
-        <p class="form-description">The Makeathon will be on Saturday, August 17, at MIT. The event is from about 9 AM to 5 PM and is free of charge. All high school and middle school students are welcome! After pre-registering, we'll email you with the next step.</p>
-        <p class="form-legend">* Required</p>
-    </div>
-    <div class="form-content">
-        <div class="form-question">
-            <label class="form-question-title-container" for="emailAddress">
-                <span class="form-question-title">Email address</span>
-                <span aria-label="Required question" class="required-asterisk">*</span>
-            </label>
-            <div class="text-input-container">
-                <input aria-label="Your email" autocomplete="email" name="emailAddress" id="emailAddress" required="" tabindex="0" type="email" />
-            </div>
-        </div>
-        <div class="form-question">
-            <label class="form-question-title-container" for="firstName">
-                <span class="form-question-title">First name</span>
-                <span aria-label="Required question" class="required-asterisk">*</span>
-            </label>
-            <div class="text-input-container">
-                <input aria-label="First name" autocomplete="off" name="entry.1213833052" id="firstName" required="" type="text" />
-            </div>
-        </div>
-        <div class="form-question">
-            <label class="form-question-title-container" for="lastName">
-                <span class="form-question-title">Last name</span>
-                <span aria-label="Required question" class="required-asterisk">*</span>
-            </label>
-            <div class="text-input-container">
-                <input aria-label="Last name" autocomplete="off" name="entry.419146081" id="lastName" required="" type="text" />
-            </div>
-        </div>
-        <div class="form-question">
-            <label class="form-question-title-container" for="school">
-                <span class="form-question-title">School</span>
-                <span aria-label="Required question" class="required-asterisk">*</span>
-            </label>
-            <span class="form-question-description">This event is for high school and middle school students only. Please provide the full name of your school.</span>
-            <div class="text-input-container">
-                <input aria-label="School" autocomplete="off" name="entry.1713513991" id="school" required="" type="text" />
-            </div>
-        </div>
-    </div>
-    <input type="submit" class="button" value="Submit">
-    <p id="success" style="display:none">YAY! Thanks for pre-registering! Info for the next step will arrive in your email inbox soon. In the meantime, feel free to share this event with your friends and/or on social media!</p>
-</form>
+## Registration
 
-<iframe name="secret-frame" width="0" height="0" border="0" style="display: none;"></iframe>
-
-<script>
-function showSuccess() {
-    document.getElementById('success').style.display = "block";
-}
-</script>
-
+[Sign up for our August Makeathon!](https://scienceandus.org/signup)
 
 ## Overview
 
