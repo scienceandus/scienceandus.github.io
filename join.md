@@ -32,14 +32,6 @@ We're especially looking for people with any of the following skills: fundraisin
 
 High school and college students from around the world are welcome to apply.
 
-</article>
-
-<article markdown="1">
-
-## Apply today!
-
-<a class="button button-primary" href="https://forms.gle/9qfjjHYCj5Y1NJgu6">Apply Now</a>
-
 ## Our impact so far
 
 We organized **2 events at Boston University (June 2018) and MIT (December 2018)**, helping a total of **65 students** learn about STEM communication skills and careers through presentations, panels, and hands-on workshops.
@@ -47,6 +39,12 @@ We organized **2 events at Boston University (June 2018) and MIT (December 2018)
 We've built a strong relationship with the science communication community. We've presented at [Science Talk](https://sciencetalk.org) in Portland, OR, and been invited to [ComSciCon](https://comscicon.com) and the [Science Media Summit](https://sciencemediasummit.org) in Boston, MA.
 
 Our events have featured **18 invited guests** from Harvard, MIT, Tufts, Boston University, STAT News, and The Boston Globe, as well as several freelancers. They're professors, journalists, educators, diplomats, artists, graduate students, and more. We've received sponsorship from Harvard Science in the News, Harvard/MIT COOP, Boston University, and several individual donors.
+
+</article>
+
+<article markdown="1">
+
+<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrC625TCLSQd1Ezc?backgroundColor=red" frameborder="0" onmousewheel="" width="100%" height="2194" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 </article>
 

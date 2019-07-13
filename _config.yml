@@ -31,8 +31,8 @@ nav-links:
   url: "/signup"
 - name: Book
   url: "/stories"
-- name: Donate
-  url: "/donate"
+- name: Join
+  url: "/join"
 social-links:
 - url: https://www.instagram.com/scienceandus/
   platform-icon-url: "/icons/ig.svg"

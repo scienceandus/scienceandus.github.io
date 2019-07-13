@@ -43,7 +43,7 @@ We're currently compiling stories and advice from diverse science communicators 
 
 We can all be reached at [name]@scienceandus.org. For team members with a nickname in parentheses, the nickname is used for our email addresses (e.g. kat@scienceandus.org).
 
-We're always open to driven, authentic people joining our team—if you're looking to grow personally and empower your peers at the same time, send us a message at [contact@scienceandus.org](mailto:contact@scienceandus.org)!
+We're always open to driven, authentic people joining our team—if you're looking to grow personally and empower your peers at the same time, [apply here](https://scienceandus.org/join).
 
 {% assign ordered-team-members = site.team-members | sort: "order-number" %}
 <div class="row fourths">
