@@ -16,7 +16,7 @@ hero-content: "<h1>We help students <br>communicate the science behind <br>what 
 
 Whether you love art, astrophysics, or anything in between, science impacts your life and the issues you care about. That means we need a better bridge between science… and *us*. **Science and Us** is a youth-led nonprofit dedicated to building that bridge. [Learn more](/about)
 
-<a href="join" class="button button-primary">Join the Team</a>
+<a href="donate" class="button button-primary">Donate</a>
 
 </article>
 
@@ -49,8 +49,6 @@ We invite awesome, down-to-earth experts to help you create articles, podcasts, 
 Did we mention? There's also free food!
 
 <a href="signup" class="button button-primary">Sign Up Today</a>
-
-[Read about our past 2 events](/makeathon)
 
 </article>
 
