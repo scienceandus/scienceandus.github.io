@@ -29,8 +29,6 @@ nav-links:
   url: "/about"
 - name: Makeathon
   url: "/signup"
-- name: Book
-  url: "/stories"
 - name: Join
   url: "/join"
 - name: Donate
