@@ -11,9 +11,9 @@ hero-content: "<h1>We're a team of high schoolers <br>spreading the knowledge <b
 
 ## Our mission
 
-Science and Us is a youth-led nonprofit dedicated to helping high schoolers explore the intersection of STEM and society.
+Science and Us is a student-led organization helping teens discover science communication, policy, media, and related fields.
 
-There are thousands of activities and competitions for teens to learn STEM, but virtually none that focus on **communicating** it in engaging, accessible ways. On top of that, there are few initiatives that truly help "non-science students" find a place for STEM in their lives.
+There are thousands of activities for teens to learn STEM, but virtually none that focus on **communicating** it in engaging, accessible ways. On top of that, there are few initiatives that truly help "non-science students" find a place for STEM in their lives.
 
 We believe that fields like **science media, policy, outreach**, and more will not only change the world, but are also perfect ways for today's youth to fuse their diverse interests into fulfilling careers.
 
@@ -33,8 +33,6 @@ Our Makeathons have been sponsored by [Science in the News](https://sitn.hms.har
 
 We love sharing our experiences with and learning from the broader science communication community! We presented at **[Science Talk](https://sciencetalk.org)** in Portland, OR, and attended the 2018 **[ComSciCon](https://comscicon.com)** National Workshop and [Science Media Awards and Summit in the Hub](https://sciencemediasummit.org).
 
-We're currently compiling stories and advice from diverse science communicators into a **book called *Stories of Science and Us***. We aim to distribute this book to classrooms across the country, because finding your place in STEM communication should be accessible to everyone.
-
 </article>
 
 <article markdown="1">
@@ -42,8 +40,6 @@ We're currently compiling stories and advice from diverse science communicators 
 ## Meet the team
 
 We can all be reached at [name]@scienceandus.org. For team members with a nickname in parentheses, the nickname is used for our email addresses (e.g. kat@scienceandus.org).
-
-We're always open to driven, authentic people joining our team—if you're looking to grow personally and empower your peers at the same time, [apply here](https://scienceandus.org/join).
 
 {% assign ordered-team-members = site.team-members | sort: "order-number" %}
 <div class="row fourths">

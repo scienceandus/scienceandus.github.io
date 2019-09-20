@@ -27,12 +27,6 @@ logo-url: "/media/logo.svg"
 nav-links:
 - name: About
   url: "/about"
-- name: Makeathon
-  url: "/signup"
-- name: Join
-  url: "/join"
-- name: Donate
-  url: "/donate"
 social-links:
 - url: https://www.instagram.com/scienceandus/
   platform-icon-url: "/icons/ig.svg"
