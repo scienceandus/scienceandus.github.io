@@ -67,73 +67,80 @@ h1 {
 }
 
 .smol {
-    text-align: left;
     font-weight: 600;
-    font-family: Barlow Condensed;
+    font-family: Barlow Semi Condensed, sans-serif;
     margin-bottom: .25rem;
     font-size: 2rem;
     letter-spacing: .5px;
+    text-align: center;
+}
+
+.smoller {
+    font-size: 1.25rem;
+    margin-top: 1rem;
 }
 
 .fancy {
     display: inline-block;
-    letter-spacing: 2.5px;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-style: italic;
     background: linear-gradient(90deg, #fc3, #f69);
-    padding: 0 1rem;
+    padding: 0 .5rem;
     position: relative;
     line-height: 100%;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-weight: 700;
-}
-
-.fancy:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: -1rem;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 0 3rem 1rem;
-    border-color: transparent transparent transparent #f69;
 }
 
 .fancy:before {
     content: '';
     position: absolute;
     bottom: 0;
-    left: -1rem;
+    left: -.5rem;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 3rem 1rem 0 0;
+    border-width: 2.5rem .5rem 0 0;
     border-color: transparent #fc3 transparent transparent;
 }
 
+.fancy:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -.5rem;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 2.5rem .5rem;
+    border-color: transparent transparent transparent #f69;
+}
+
 h2 {
-    font: 800 2rem Inter;
+    font: 800 1.75rem Inter, sans-serif;
     letter-spacing: -.5px;
 }
 
-header h2 {
+header h2, header h3 {
     width: 90vw;
-    margin: 2rem auto 0;
     max-width: 800px;
 }
 
-h3 {
-    font: 600 1.75rem Inter;
-    letter-spacing: -.5px;
+header h2 {
+    margin: 2rem auto;
 }
 
 header h3 {
-    margin: 1rem 0 2rem;
+    margin: 0 auto 2rem;
+}
+
+h3 {
+    font: 600 1.5rem Inter, sans-serif;
+    letter-spacing: -.5px;
 }
 
 .button {
-    font: 700 1.5rem/100% Inter;
+    font: 700 1.25rem/100% Inter, sans-serif;
     text-decoration: none;
     padding: .5em .7em;
     background: #03c;
@@ -150,7 +157,7 @@ header h3 {
 /* CONTENT ================================================================================ */
 
 h4 {
-    font: 400 1.5rem/150% Inter;
+    font: 400 1.3rem/130% Inter, sans-serif;
     margin: 1rem 0;
     color: #333;
 }
@@ -165,7 +172,7 @@ section h3 {
 }
 
 p {
-    font: 400 1.15rem/150% Inter;
+    font: 400 1rem/130% Inter, sans-serif;
     margin: 1rem 0;
     color: #444;
 }
@@ -182,7 +189,7 @@ p {
 }
 
 .row {
-    margin: 4rem 0;
+    margin: 2rem 0;
 }
 
 img {
@@ -257,15 +264,26 @@ img {
 @media (min-width: 50rem) {
     .smol {
         font-size: 3rem;
+        text-align: left;
+    }
+    .smoller {
+        font-size: 2rem;
+        margin-top: 0.5rem;
     }
     .fancy {
         font-size: 6rem;
+        letter-spacing: 2.5px;
+        padding: 0 1rem;
     }
     .fancy:before {
         border-top-width: 6rem;
+        border-right-width: 1rem;
+        left: -1rem;
     }
     .fancy:after {
         border-bottom-width: 6rem;
+        border-left-width: 1rem;
+        right: -1rem;
     }
     .two-column {
         grid-template-columns: 1fr 1fr;
@@ -273,5 +291,20 @@ img {
     }
     h2 {
         font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1.75rem;
+    }
+    h4 {
+        font: 400 1.5rem/150% Inter, sans-serif;
+    }
+    p {
+        font: 400 1.15rem/150% Inter, sans-serif;
+    }
+    .button {
+        font-size: 1.5rem;
+    }
+    .row {
+        margin: 4rem 0;
     }
 }
