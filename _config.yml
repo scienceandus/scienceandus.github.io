@@ -30,3 +30,5 @@ social-links:
 - url: https://twitter.com/scienceandus
   platform-icon-url: "/icons/twitter.svg"
   platform-and-username: 'Twitter: @scienceandus'
+sass:
+  style: compressed
