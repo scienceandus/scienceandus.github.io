@@ -51,7 +51,7 @@ header video {
 }
 
 .header-content {
-    padding: 5rem 5%;
+    padding: 1rem 0;
     text-align: center;
     display: grid;
     justify-content: center;
@@ -120,7 +120,7 @@ h1 {
 }
 
 h2 {
-    font: 800 1.75rem Inter, sans-serif;
+    font: 800 1.25rem Inter, sans-serif;
     letter-spacing: -.5px;
 }
 
@@ -130,20 +130,20 @@ header h2, header h3 {
 }
 
 header h2 {
-    margin: 2rem auto;
+    margin: 1rem auto;
 }
 
 header h3 {
-    margin: 0 auto 2rem;
+    margin: 0 auto 1rem;
 }
 
 h3 {
-    font: 600 1.5rem Inter, sans-serif;
+    font: 600 1.25rem Inter, sans-serif;
     letter-spacing: -.5px;
 }
 
 .button {
-    font: 700 1.25rem/100% Inter, sans-serif;
+    font: 700 1.15rem/100% Inter, sans-serif;
     text-decoration: none;
     padding: .5em .7em;
     background: #03c;
@@ -291,6 +291,9 @@ img {
     .two-column {
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 2rem;
+    }
+    .header-content {
+        padding: 5rem 0;
     }
     h2 {
         font-size: 2.5rem;
