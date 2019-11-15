@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:600&display=swap');
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER ================================================================================ */
+
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    color: #eee;
+}
+
+.page-header {
+    height: 40vh;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(50,50,50,.8);
+}
+
+.header-content {
+    padding: 5rem 5%;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+header a {
+    text-decoration: none;
+    color: #eee;
+}
+
+h1 {
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.smol {
+    text-align: left;
+    font-weight: 600;
+    font-family: Barlow Condensed;
+    margin-bottom: .25rem;
+    font-size: 2rem;
+    letter-spacing: .5px;
+}
+
+.fancy {
+    display: inline-block;
+    letter-spacing: 2.5px;
+    font-size: 3rem;
+    font-style: italic;
+    background: linear-gradient(90deg, #fc3, #f69);
+    padding: 0 1rem;
+    position: relative;
+    line-height: 100%;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.fancy:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -1rem;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 3rem 1rem;
+    border-color: transparent transparent transparent #f69;
+}
+
+.fancy:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -1rem;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 3rem 1rem 0 0;
+    border-color: transparent #fc3 transparent transparent;
+}
+
+h2 {
+    font: 800 2rem Inter;
+    letter-spacing: -.5px;
+}
+
+header h2 {
+    width: 90vw;
+    margin: 2rem auto 0;
+    max-width: 800px;
+}
+
+h3 {
+    font: 600 1.75rem Inter;
+    letter-spacing: -.5px;
+}
+
+header h3 {
+    margin: 1rem 0 2rem;
+}
+
+.button {
+    font: 700 1.5rem/100% Inter;
+    text-decoration: none;
+    padding: .5em .7em;
+    background: #03c;
+    color: #fff;
+    display: inline;
+    border-radius: .75rem;
+    transition: .1s;
+}
+
+.button:hover {
+    background: #002db3;
+}
+
+/* CONTENT ================================================================================ */
+
+h4 {
+    font: 400 1.5rem/150% Inter;
+    margin: 1rem 0;
+    color: #333;
+}
+
+section h2, section p a {
+    color: #036;
+}
+
+section h3 {
+    margin-top: 1rem;
+    color: #333;
+}
+
+p {
+    font: 400 1.15rem/150% Inter;
+    margin: 1rem 0;
+    color: #444;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.grid {
+    display: grid;
+    grid-row-gap: 2rem;
+}
+
+.row {
+    margin: 4rem 0;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.faq-item {
+    background: #ffeecd;
+    padding: .5rem 1.5rem;
+    border-radius: .75rem;
+}
+
+.image-container {
+    max-width: 100%;
+    box-shadow: 0 0 5px #aaa;
+    overflow: hidden;
+    border-radius: .75rem;
+}
+
+.image-container img {
+    transition: .1s;
+}
+
+.image-container img:hover {
+    transform: scale(1.075);
+}
+
+.dark-blue-bg {
+    background: #036;
+    color: #eee;
+}
+
+.dark-blue-bg p, .dark-blue-bg h2 {
+    color: #eee;
+}
+.dark-blue-bg p a  {
+    color: #fd9;
+}
+
+#sponsor-logos {
+    display: flex;
+    width: 100%;
+}
+
+#sponsor-logos a {
+    display: block;
+    margin-right: 1rem;
+}
+
+#sponsor-logos img {
+    max-height: 7rem;
+    width: auto;
+    margin-top: 2rem;
+}
+
+#about {
+    overflow: auto;
+}
+
+.social-icon {
+    display: inline-block;
+}
+
+.social-icon img {
+    width: 36px;
+    height: 36px;
+    margin: 0 .25rem;
+}
+
+@media (min-width: 50rem) {
+    .smol {
+        font-size: 3rem;
+    }
+    .fancy {
+        font-size: 6rem;
+    }
+    .fancy:before {
+        border-top-width: 6rem;
+    }
+    .fancy:after {
+        border-bottom-width: 6rem;
+    }
+    .two-column {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+}
