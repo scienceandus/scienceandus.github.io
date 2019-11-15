@@ -1,32 +1,16 @@
 ---
-title: Science and Us
-timezone: UTC
+title: Science and Us Makeathon | January 25, 2020
 collections:
-  posts:
-    title: Posts
-    output: true
   speakers:
     title: Speakers
     output: false
-  team-members:
-    title: Team Members
-    output: false
-  uploads:
-    title: Uploads
-    output: true
 defaults:
 - scope:
     path: ''
   values:
     layout: default
 url: https://scienceandus.org
-description: We help students understand and communicate the science behind what matters
-  to them. We host Makeathons for high schoolers to make multimedia projects that
-  make STEM exciting, and open up careers connecting STEM and the public.
-logo-url: "/media/logo.svg"
-nav-links:
-- name: About
-  url: "/about"
+description: We're a student-led nonprofit that runs events and creates online resources to help high schoolers learn science communication. Sign up for our Makeathon on January 25, 2020, at MIT!
 social-links:
 - url: https://www.instagram.com/scienceandus/
   platform-icon-url: "/icons/ig.svg"
@@ -37,5 +21,3 @@ social-links:
 - url: https://twitter.com/scienceandus
   platform-icon-url: "/icons/twitter.svg"
   platform-and-username: 'Twitter: @scienceandus'
-sass:
-  style: compressed
