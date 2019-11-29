@@ -120,7 +120,7 @@ h1 {
 }
 
 h2 {
-    font: 800 1.25rem Inter, sans-serif;
+    font: 800 1.75rem Inter, sans-serif;
     letter-spacing: -.5px;
 }
 
@@ -138,7 +138,7 @@ header h3 {
 }
 
 h3 {
-    font: 600 1.25rem Inter, sans-serif;
+    font: 600 1.5rem Inter, sans-serif;
     letter-spacing: -.5px;
 }
 
@@ -165,8 +165,13 @@ h4 {
     color: #333;
 }
 
-section h2, section p a {
+section h2, section a {
     color: #300;
+    transition: .15s;
+}
+
+section a:hover {
+    color: lighten(#300, 15%)
 }
 
 section h3 {
@@ -174,10 +179,14 @@ section h3 {
     color: #300;
 }
 
-p {
+p, li {
     font: 400 1rem/130% Inter, sans-serif;
     margin: 1rem 0;
     color: #444;
+}
+
+li {
+    margin-left: 2.5rem;
 }
 
 .container {
@@ -188,7 +197,7 @@ p {
 
 .grid {
     display: grid;
-    grid-row-gap: 2rem;
+    grid-row-gap: 1rem;
 }
 
 .row {
@@ -302,7 +311,7 @@ img {
     h4 {
         font: 400 1.5rem/150% Inter, sans-serif;
     }
-    p {
+    p, li {
         font: 400 1.15rem/150% Inter, sans-serif;
     }
     .button {
