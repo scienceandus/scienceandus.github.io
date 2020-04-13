@@ -19,7 +19,7 @@ defaults:
     path: ''
   values:
     layout: default
-url: https://scienceandus.org
+url: https://sciandus.netlify.com
 description: We help students understand and communicate the science behind what matters
   to them. We host Makeathons for high schoolers to make multimedia projects that
   make STEM exciting, and open up careers connecting STEM and the public.
