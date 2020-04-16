@@ -12,7 +12,7 @@ button_text: Get your Discord invite
 
 We're gathering students curious about science communication—making complex topics engaging and accessible to the public—and willing to step outside their comfort zone.
 
-Each month, our team releases a theme for you to make a project about, either on your own or with others. All sorts of formats are welcome: videos, art, articles, and more! In addition to fun events (movie nights, music sessions) students from all over, you'll get resources like recognition and feedback from professional science journalists, artists, and other experts.
+Each month, our team releases a theme for you to make a project about, either on your own or with others. All sorts of formats are welcome: videos, art, articles, and more! In addition to fun events (movie nights, music sessions) with students from all over, you'll get resources like recognition and feedback from professional science journalists, artists, and other experts.
 
 [Apply to join](https://airtable.com/shr7hiLGn62ikhcuP){: .button}
 
