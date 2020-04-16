@@ -1,0 +1,19 @@
+---
+label: Team Member
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: role
+  label: role
+- type: file
+  name: photo_path
+  label: photo_path
+- type: text
+  name: linkedin_url
+  label: linkedin_url
+- type: number
+  name: ordering_priority
+  label: ordering_priority
