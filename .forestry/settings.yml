@@ -8,11 +8,6 @@ sections:
   label: Pages
   create: all
 - type: directory
-  path: assets
-  label: Assets
-  create: all
-  match: "**/*"
-- type: directory
   path: _team_members
   label: Team Members
   create: all
