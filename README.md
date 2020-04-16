@@ -2,7 +2,7 @@
 
 Welome to the repository for the [Science and Us](https://scienceandus.org) website!
 
-The website is built using [Jekyll](https://jekyllrb.com/) (a static site generator) and hosted by [Netlify](https://www.netlify.com/). It also uses [Netlify CMS](https://www.netlifycms.org/) as a content management system.
+The website is built using [Jekyll](https://jekyllrb.com/) (a static site generator) and hosted by [Netlify](https://www.netlify.com/). It uses [Forestry](https://www.forestry.io/) as a content management system.
 
 **Most edits to the website content (images, pages, team members, etc.) should be made using the CMS, not directly to the source code here.**
 
@@ -17,7 +17,7 @@ The website is built using [Jekyll](https://jekyllrb.com/) (a static site genera
 
 - `_config.yml` defines variables used across the website, as well as configuration settings.
 - `_includes/` contains snippets of HTML that are used multiple times across the website. They're extracted to a file in this folder to avoid unnecessary repetition and make it easier to change things across the website.
-- `_layouts/` are templates for types of pages, including `home` and `default`.
+- `_layouts/` are templates for types of pages.
 
 ### Deployment-Related
 
@@ -34,5 +34,4 @@ git clone https://github.com/scienceandus/scienceandus.github.io
 cd scienceandus.github.io
 
 jekyll serve
-
 ```
