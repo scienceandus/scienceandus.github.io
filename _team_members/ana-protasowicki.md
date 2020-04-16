@@ -1,5 +1,5 @@
 ---
-name: Ana Protas
+name: Ana Protasowicki
 role: Organizer
 photo_path: "/assets/ana.jpg"
 linkedin_url: 
