@@ -10,3 +10,12 @@ collections:
     folder: '_posts/'
     fields:
       - { name: Title }
+  - name: 'members'
+    label: 'Team Members'
+    folder: '_team_members/'
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Role', name: 'role', widget: 'string' }
+      - { label: 'Photo Path', name: 'photo_path', widget: 'string' }
+      - { label: 'LinkedIn URL', name: 'linkedin_url', widget: 'url' }
+      - { label: 'Ordering Priority (lowest numbers appear first)', name: 'ordering_priority', widget: 'string' }
