@@ -13,17 +13,8 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: _speakers
-  label: Speakers
-  create: all
-  match: "**/*"
-- type: jekyll-posts
-  label: Posts
-  create: all
-  match: "**/*"
-- type: directory
   path: _team_members
-  label: Team members
+  label: Team Members
   create: all
   match: "**/*"
 upload_dir: uploads
