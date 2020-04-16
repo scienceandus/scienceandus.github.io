@@ -15,6 +15,7 @@ fields:
 - type: text
   name: linkedin_url
   label: linkedin_url
+  description: Optional
 - type: number
   name: ordering_priority
   label: ordering_priority
