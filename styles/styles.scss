@@ -1,0 +1,290 @@
+---
+---
+
+$tablet-breakpoint: 700px;
+$desktop-breakpoint: 1100px;
+
+/* RESET & GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Barlow, system-ui, sans-serif;
+}
+
+/* NAV */
+nav {
+  position: absolute;
+  width: 100%;
+  height: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+
+  .logo-container {
+    display: block;
+  }
+
+  .logo-container img {
+    height: 3.5rem;
+
+    display: inline-block;
+    width: auto;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  li a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ccc;
+    transition: .1s;
+    font-size: 1.25rem;
+    padding: 0 1rem;
+  }
+
+  li a:last-child {
+    padding-right: 0;
+  }
+
+  li a:hover {
+    color: #eee;
+  }
+}
+
+/* HEADER */
+.hero {
+  position: relative; // helps with video positioning
+  background: black; // if video doesn't work, bg should still be dark
+  overflow: hidden; // prevent horizontal scroll due to bg video
+}
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.header-content, .page-header {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.page-header {
+  background: linear-gradient(45deg, #903, #c90);
+
+  h1 {
+    color: #eee;
+  }
+
+  .tagline {
+    font-size: 1.35rem;
+    color: #ddd;
+    margin-top: .5rem;
+    font-family: barlow;
+  }
+}
+
+header h1 {
+  font-weight: 900;
+  line-height: 1.15;
+  font-size: 2.5rem;
+}
+
+header .button-container {
+  margin-top: 1.5rem;
+}
+
+/* SECTION LAYOUT & TYPOGRAPHY */
+section {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+
+  h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #111;
+    margin: 1.25rem 0 .85rem;
+  }
+
+  p {
+    color: #111;
+    line-height: 1.4;
+    margin: .85rem 0;
+    font-size: 1.15rem;
+    font-family: Barlow;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  a {
+    color: #681a1a;
+    transition: .1s;
+  }
+
+  a:hover {
+    color: #912424;
+  }
+}
+
+/* GENERAL TYPOGRAPHY & CLASSES */
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.dark-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(20, 20, 20, 0.75);
+  color: #eee;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #222;
+  background: #ffcc99;
+  padding: .7rem 1.15rem;
+  display: inline-block;
+  border-radius: 5rem;
+  transition: 0.1s;
+}
+
+.button:hover {
+  background: #FFD9B3;
+}
+
+/* CARDS (for team members, speakers, etc) */
+.grid {
+  display: grid;
+  grid-column-gap: 1rem;
+}
+
+.three-columns, .four-columns {
+  grid-template-columns: 1fr 1fr; // on smaller screens, do 2 instead of 3/4 cols
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  margin: 1rem 0;
+}
+
+@media (min-width: $tablet-breakpoint) {
+  nav {
+    padding-top: 2rem;
+  }
+
+  .container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .hero .header-content {
+    padding-top: 12.5rem;
+    padding-bottom: 10rem;
+  }
+
+  header h1 {
+    font-size: 3rem;
+  }
+
+  section {
+    p {
+      font-size: 1.25rem;
+      margin: 1.25rem 0;
+    }
+  }
+
+  .two-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .three-columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .four-columns {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .page-header .tagline {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .container {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  header h1 {
+    font-size: 4rem;
+  }
+
+  header .button-container {
+    margin-top: 2.5rem;
+  }
+
+  .button {
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
+  }
+
+  section {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    h1 {
+      font-size: 2rem;
+      margin: 1.5rem 0 1rem;
+    }
+    p {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+hr {
+  margin: 3rem auto;
+  width: 80%;
+  height: 1px;
+  background: #ccc;
+  border: none;
+}

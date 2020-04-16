@@ -1,3 +1,21 @@
+        <footer>
+            
+        </footer>
+
         <script src="https://embed.small.chat/TB9L358G2GGNUMEE6T.js" async></script>
+
+        {% if page.url == "/" %}
+        <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+                });
+            }
+            });
+        }
+        </script>
+        {% endif %}
     </body>
 </html>

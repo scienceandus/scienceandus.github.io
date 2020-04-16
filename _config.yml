@@ -1,7 +1,26 @@
 ---
 title: Science and Us
-timezone: UTC
+url: https://scienceandus.org
+description:
+  We're a student-led nonprofit that runs events and creates online resources
+  to help high schoolers learn science communication. Sign up for our Makeathon on
+  January 25, 2020, at MIT!
+
+# include preceding slash
+logo_path: /assets/logo.png
+favicon_path: /assets/favicon.ico
+stylesheet_path: /styles/styles.css
+
+twitter_handle: "@scienceandus"
+
+nav_links:
+  - url: /about/
+    title: About
+
 collections:
+  team_members:
+    title: Team Members
+    output: false
   posts:
     title: Posts
     output: true
@@ -11,27 +30,29 @@ collections:
   uploads:
     title: Uploads
     output: true
+
+# set the default layout to `default` for every page
 defaults:
   - scope:
       path: ""
     values:
       layout: default
-url: https://scienceandus.org
-description:
-  We're a student-led nonprofit that runs events and creates online resources
-  to help high schoolers learn science communication. Sign up for our Makeathon on
-  January 25, 2020, at MIT!
-social-links:
+
+social_links:
   - url: https://www.instagram.com/scienceandus/
-    platform-icon-url: "/icons/ig.svg"
-    platform-and-username: "Instagram: @scienceandus"
+    icon_path: "/icons/ig.svg"
+    platform_and_username: "Instagram: @scienceandus"
   - url: https://www.facebook.com/sciandus
-    platform-icon-url: "/icons/fb.svg"
-    platform-and-username: "Facebook: @sciandus"
+    icon_path: "/icons/fb.svg"
+    platform_and_username: "Facebook: @sciandus"
   - url: https://twitter.com/scienceandus
-    platform-icon-url: "/icons/twitter.svg"
-    platform-and-username: "Twitter: @scienceandus"
+    icon_path: "/icons/twitter.svg"
+    platform_and_username: "Twitter: @scienceandus"
+
 sass:
   style: compressed
+
 include:
   - _redirects
+
+permalink: /:title/

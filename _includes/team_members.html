@@ -1,0 +1,13 @@
+{% assign ordered_members = site.team_members | sort: "ordering-priority" %} 
+
+<div class="grid four-columns">
+  {% for member in ordered_members %}
+  <div class="card">
+    <img src="{{ member.photo_path }}" alt="{{ member.name }}">
+    <p>
+      {{ member.name }}
+      {% if member.role %}<br><i>{{ member.role }}</i>{% endif %}
+    </p>
+  </div>
+  {% endfor %}
+</div>

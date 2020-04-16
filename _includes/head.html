@@ -3,35 +3,44 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<link rel="icon" type="image/icon" href="favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
 		<title>{{site.title}}{% if page.title %} | {{ page.title }}{% endif %}</title>
 		<meta name="description" content="{{site.description}}">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-		<link rel="stylesheet" href="styles.css">
+		
+		<link rel="icon" type="image/icon" href="{{ site.favicon_path }}">
+		<link rel="stylesheet" href="{{ site.stylesheet_path }}">
+		<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&display=swap" rel="stylesheet">
 
 		<!-- for Facebook -->
-		<meta property="og:title" content="{{site.title}}"/>
+		<meta property="og:title" content="{{ site.title }}"/>
 		<meta property="og:type" content="website"/>
-		<meta property="og:image" content="logo.png"/>
-		<meta property="og:url" content="{{site.url}}"/>
-		<meta property="og:description" content="{{site.description}}"/>
+		<meta property="og:image" content="{{ site.logo_path }}"/>
+		<meta property="og:url" content="{{ site.url }}"/>
+		<meta property="og:description" content="{{ site.description }}"/>
 
 		<!-- for Twitter -->
 		<meta name="twitter:card" content="summary">
-		<meta name="twitter:site" content="@scienceandus">
-		<meta name="twitter:title" content="{{site.title}}">
-		<meta name="twitter:description" content="{{site.description}}">
-		<meta name="twitter:image:src" content="logo.png">
+		<meta name="twitter:site" content="{{ site.twitter_handle }}">
+		<meta name="twitter:title" content="{{ site.title }}">
+		<meta name="twitter:description" content="{{ site.description }}">
+		<meta name="twitter:image:src" content="{{ site.logo_path }}">
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103639830-2"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103639830-2"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
 
-          gtag('config', 'UA-103639830-2');
-        </script>
+			gtag('config', 'UA-103639830-2');
+		</script>
+
+		{% if page.url == "/" %}
+		<!--Netlify CMS Identity Widget-->
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+		{% endif %}
 	</head>
 
 	<body>
+		{% include nav.html %}

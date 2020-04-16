@@ -1,0 +1,26 @@
+<header class="hero">
+    <video
+        playsinline="playsinline"
+        autoplay="autoplay"
+        muted="muted"
+        loop="loop"
+    >
+        <source src="assets/header.mp4" type="video/mp4">
+    </video>
+    
+    <div class="dark-overlay">
+        <div class="header-content container">
+            <h1>
+                {{ page.header_text }}
+            </h1>
+
+            {% if page.show_header_button %}
+            <div class="button-container">
+                <a href="{{ page.button_url }}" class="button">
+                    {{ page.button_text }}
+                </a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</header>

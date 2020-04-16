@@ -1,0 +1,13 @@
+<nav class="container">
+  <a class="logo-container" href="{{ site.url }}">
+    <img src="{{ site.logo_path }}" alt="Science and Us logo">
+  </a>
+
+  <ul>
+    {% for link in site.nav_links %}
+    <li>
+      <a href="{{ link.url }}">{{ link.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

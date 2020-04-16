@@ -1,6 +1,15 @@
 {% include head.html %}
-{% include page_header.html %}
+
+{% if page.url == "/" %}
+{% include hero.html %}
+{% endif %}
+
+{% if page.url != "/" %}
+{% include header.html %}
+{% endif %}
+
 <section class="container">
-    {{ content }}
+{{ content }}
 </section>
+
 {% include foot.html %}
