@@ -8,12 +8,15 @@ fields:
 - type: text
   name: role
   label: role
+  description: Optional
 - type: file
   name: photo_path
-  label: photo_path
+  label: photo
 - type: text
   name: linkedin_url
   label: linkedin_url
 - type: number
   name: ordering_priority
   label: ordering_priority
+  description: Lower numbers get displayed first. This is mainly for putting director(s)
+    first, everyone else in the middle, and advisor(s) last.
