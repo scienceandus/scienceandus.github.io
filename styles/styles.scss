@@ -91,6 +91,24 @@ video {
   padding-bottom: 5rem;
 }
 
+.page-footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  // background: linear-gradient(45deg, #903, #c90);
+  background-color: #000;
+  text-align: center;
+  color: #eee;
+  font-size: 1rem;
+
+  .logo {
+    max-width: 100px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:1rem;
+  }
+}
+
 .page-header {
   background: linear-gradient(45deg, #903, #c90);
 
@@ -187,7 +205,9 @@ section {
 }
 
 .button:hover {
-  background: #FFD9B3;
+  // background: #FFD9B3;
+  transform:scale(1.05);
+  color: #222;
 }
 
 /* CARDS (for team members, speakers, etc) */
@@ -287,4 +307,14 @@ hr {
   height: 1px;
   background: #ccc;
   border: none;
+}
+
+.social-icon {
+  display: inline-block;
+}
+
+.social-icon img {
+  width: 36px;
+  height: 36px;
+  margin: 0 0.25rem;
 }

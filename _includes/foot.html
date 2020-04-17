@@ -1,5 +1,17 @@
-        <footer>
-            
+        <footer class="page-footer container">
+            <img src="/assets/logo.png" class="logo" alt="Science and Us Logo">
+
+            {% for link in site.social_links %}
+            <a href="{{ link.url }}" class="social-icon">
+                <img src="/assets/{{ link.icon_path }}" alt="{{ link.platform_and_username }}">
+            </a>
+            {% endfor %}
+
+            <p style="margin-top: 1rem">
+                Science and Us is fiscally sponsored by
+                <a href="https://hackclub.com/bank/" target="_blank" style="color:#eee">The Hack Foundation</a>,
+                a 501(c)(3) nonprofit. (EIN: 81-2908499)
+            </p>
         </footer>
 
         <script src="https://embed.small.chat/TB9L358G2GGNUMEE6T.js" async></script>
