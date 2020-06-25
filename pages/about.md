@@ -1,6 +1,6 @@
 ---
-permalink: /about/
 title: About
+permalink: "/about/"
 tagline: Our story, mission, and team
 ---
 

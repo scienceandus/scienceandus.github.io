@@ -1,8 +1,6 @@
 ---
 title: Home
-
 header_text: Go beyond “STEM vs humanities” & make projects you’re proud of
-
 show_header_button: true
 button_url: https://airtable.com/shr7hiLGn62ikhcuP
 button_text: Get your Discord invite
