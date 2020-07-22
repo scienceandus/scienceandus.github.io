@@ -162,6 +162,10 @@ section {
     font-family: $paragraph-font;
   }
 
+  p a {
+    font-family: $paragraph-font;
+  }
+
   h2 {
     font-size: 1.75rem;
     line-height: 1.5;
@@ -199,6 +203,7 @@ section {
 }
 
 .button {
+  font-family: $global-font;
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1;
