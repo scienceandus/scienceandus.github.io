@@ -5,7 +5,7 @@ $tablet-breakpoint: 700px;
 $desktop-breakpoint: 1100px;
 
 $global-font: Barlow;
-$tagline-font: Barlow;
+$tagline-font: Metrophobic;
 $paragraph-font: Metrophobic;
 
 /* RESET & GLOBAL STYLES */
@@ -155,6 +155,10 @@ section {
     line-height: 1.4;
     margin: .85rem 0;
     font-size: 1.15rem;
+    font-family: $paragraph-font;
+  }
+
+  p i {
     font-family: $paragraph-font;
   }
 
