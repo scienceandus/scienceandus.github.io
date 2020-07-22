@@ -2,17 +2,25 @@
 title: Home
 header_text: Go beyond “STEM vs humanities” & make projects you’re proud of
 show_header_button: true
-button_url: https://airtable.com/shr7hiLGn62ikhcuP
-button_text: Get your Discord invite
+button_url: /community/
+button_text: Join our Discord
+---
+
+# Humans of Scicomm
+
+Our newest project, Humans of Scicomm, is an upcoming Medium publication and platform for sharing the stories of science communicators. We'll be interviewing science communication experts about their journeys in science communication.
+
+[Follow us on Medium](https://medium.com/science-and-us){: .button}
+
 ---
 
 # Join the Science and Us Community
 
-We're gathering students curious about science communication—making complex topics engaging and accessible to the public—and willing to step outside their comfort zone.
+The Science and Us Community is an online community of students curious about making complex topics engaging and accessible to the public and willing to step outside their comfort zone. In June, our team released a prompt for our community members to make projects about. The projects can be found [here](/community/#project-gallery).
 
-Each month, our team releases a theme for you to make a project about, either on your own or with others. All sorts of formats are welcome: videos, art, articles, and more! In addition to fun events (movie nights, music sessions) with students from all over, you'll get resources like recognition and feedback from professional science journalists, artists, and other experts.
+We welcome all students interested in using creative approaches and any kinds of media to communicate complex topics.
 
-[Apply to join](https://airtable.com/shr7hiLGn62ikhcuP){: .button}
+[Learn more](/community/){: .button}
 
 ---
 
