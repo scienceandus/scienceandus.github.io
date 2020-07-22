@@ -30,6 +30,8 @@ twitter_handle: "@scienceandus"
 nav_links:
 - url: "/about/"
   title: About
+- url: "/community/"
+  title: Community
 social_links:
 - url: https://www.instagram.com/scienceandus/
   icon_path: "/icons/ig.svg"
@@ -39,6 +41,8 @@ social_links:
   platform_and_username: 'Facebook: @sciandus'
 - url: https://twitter.com/scienceandus
   icon_path: "/icons/twitter.svg"
+- url: https://medium.com/science-and-us
+  icon_path: "/icons/medium.svg"
   platform_and_username: 'Twitter: @scienceandus'
 sass:
   style: compressed
