@@ -4,12 +4,16 @@
 $tablet-breakpoint: 700px;
 $desktop-breakpoint: 1100px;
 
+$global-font: Barlow;
+$tagline-font: Barlow;
+$paragraph-font: Metrophobic;
+
 /* RESET & GLOBAL STYLES */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Barlow, system-ui, sans-serif;
+  font-family: $global-font, system-ui, sans-serif;
 }
 
 /* NAV */
@@ -120,7 +124,7 @@ video {
     font-size: 1.35rem;
     color: #ddd;
     margin-top: .5rem;
-    font-family: barlow;
+    font-family: $tagline-font;
   }
 }
 
@@ -151,7 +155,7 @@ section {
     line-height: 1.4;
     margin: .85rem 0;
     font-size: 1.15rem;
-    font-family: Barlow;
+    font-family: $paragraph-font;
   }
 
   h2 {
@@ -197,7 +201,7 @@ section {
   text-transform: uppercase;
   text-decoration: none;
   color: #222;
-  background: #ffcc99;
+  background: linear-gradient(#ffcc99,rgb(252,172,153));
   padding: .7rem 1.15rem;
   display: inline-block;
   border-radius: 5rem;
