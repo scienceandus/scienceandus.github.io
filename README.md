@@ -10,7 +10,7 @@ The website is built using [Jekyll](https://jekyllrb.com/) (a static site genera
 
 - `assets/` contains all images and videos.
 - `styles/` contains the files used to style website, written in [SCSS](https://sass-lang.com/) that gets compiled to regular CSS by Jekyll.
-- `pages/` contains all the pages of the website, usually as Markdown (`.md`) files editable via Netlify CMS.
+- `pages/` contains all the pages of the website, usually as Markdown (`.md`) files editable via Forestry CMS.
 - `_redirects` tells Netlify to redirect certain pages of the website to other URLs (internal or external).
 
 ### Jekyll-Related
