@@ -15,6 +15,6 @@ During our online events, our team releases a theme for you to make a project ab
 ## Project Gallery
 
 
-Click on the projects and view the attached links/files to see what our community members have created!
+Click on the projects and view the attached links and/or files to see what Science and Us Community members have created!
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrJV64tx2WtkvO5A?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>

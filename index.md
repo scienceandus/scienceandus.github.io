@@ -8,7 +8,7 @@ button_text: Join our Discord
 
 # Humans of Scicomm
 
-Our newest project, Humans of Scicomm, is an upcoming Medium publication and platform for sharing the stories of science communicators. We'll be interviewing science communication experts about their journeys in science communication.
+Our newest project, Humans of Scicomm, is an upcoming Medium collection and platform for sharing the stories of science communicators. We'll be interviewing science communication experts about challenges they've faced entering the field due to their identities.
 
 [Follow us on Medium](https://medium.com/science-and-us){: .button}
 
@@ -16,9 +16,9 @@ Our newest project, Humans of Scicomm, is an upcoming Medium publication and pla
 
 # Join the Science and Us Community
 
-The Science and Us Community is an online community of students curious about making complex topics engaging and accessible to the public and willing to step outside their comfort zone. In June, our team released a prompt for our community members to make projects about. The projects can be found [here](/community/#project-gallery).
+You'll be entering an online community of students curious about making complex topics engaging and accessible to the public and willing to step outside their comfort zone. In June, our team released a prompt for our community members to make projects about. The projects can be found [here](/community/#project-gallery).
 
-We welcome all students interested in using creative approaches and any kinds of media to communicate complex topics.
+We welcome all students interested in using creative approaches and a variety of media to communicate complex topics.
 
 [Learn more](/community/){: .button}
 
