@@ -3,7 +3,7 @@ title: Home
 header_text: Go beyond “STEM vs humanities” & make projects you’re proud of
 show_header_button: true
 button_url: /community/
-button_text: Join our Discord
+button_text: Join our community
 ---
 
 # Humans of Scicomm
@@ -16,7 +16,7 @@ Our newest project, Humans of Scicomm, is an upcoming Medium collection and plat
 
 # Join the Science and Us Community
 
-You'll be entering an online community of students curious about making complex topics engaging and accessible to the public and willing to step outside their comfort zone. In June, our team released a prompt for our community members to make projects about. The projects can be found [here](/community/#project-gallery).
+You'll be entering an online community of students curious about making complex topics engaging and accessible to the public and willing to step outside their comfort zone. In June, our team released a prompt for our community members to make projects about. You can view the projects [here](/community/#project-gallery).
 
 We welcome all students interested in using creative approaches and a variety of media to communicate complex topics.
 
