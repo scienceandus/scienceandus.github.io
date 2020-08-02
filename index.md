@@ -8,9 +8,9 @@ button_text: Join our community
 
 # Humans of Scicomm
 
-Our newest project, Humans of Scicomm, is an upcoming Medium collection and platform for sharing the stories of science communicators. We'll be interviewing science communication experts about challenges they've faced entering the field due to their identities.
+Our newest project, Humans of Scicomm, is an upcoming [Medium collection](https://medium.com/science-and-us) and platform for sharing untold stories of science communicators. We're speaking to experts about the challenges they've faced entering the field due to their identities. If you're interested in sharing your story, fill out our interest form below.
 
-[Follow us on Medium](https://medium.com/science-and-us){: .button}
+[Share your story](https://docs.google.com/forms/d/e/1FAIpQLSewD2UDBjMEK_WoxJRK2SQvpInyvQjTu_cok3KvqUrRH6Sy4Q/viewform){: .button}
 
 ---
 
