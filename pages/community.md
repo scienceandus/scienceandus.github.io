@@ -21,13 +21,15 @@ During our online events, our team releases a theme for you to make a project ab
 Jordyn Kosai (she/her) is an Asian-American undergrad studying environmental design at UC Davis. She is not typically a writer (although she's trying to improve) and much prefers sketching or painting. Her favorite pre-COVID/fire activities include spending time in nature and going to concerts. Now stuck at home, she can usually be found watching
 movies with family.
 
-Learn more about Jordyn [here](https://jordynkosai.wixsite.com/joko).
+
 
 </div>
 
 ![](/assets/jordyn.jpg)
 
 </div>
+
+Learn more about Jordyn at her [website](https://jordynkosai.wixsite.com/joko) and on our publication, [*Humans of Scicomm*](https://medium.com/science-and-us/humans-of-scicomm-jordyn-kosai-54b34d2110db).
 
 ---
 
