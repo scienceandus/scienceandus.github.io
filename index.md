@@ -8,9 +8,30 @@ button_text: Join our community
 
 # Humans of Scicomm
 
-Our newest project, Humans of Scicomm, is an upcoming [Medium collection](https://medium.com/science-and-us) and platform for sharing untold stories of science communicators. We're speaking to experts about the challenges they've faced entering the field due to their identities. If you're interested in sharing your story, fill out our interest form below.
+Our newest project, *Humans of Scicomm*, is a [Medium collection](https://medium.com/science-and-us) and platform for sharing untold stories of science communicators. We're speaking to experts about the challenges they've faced entering the field due to their identities. If you're interested in sharing your story, fill out our interest form below.
 
 [Share your story](https://docs.google.com/forms/d/e/1FAIpQLSewD2UDBjMEK_WoxJRK2SQvpInyvQjTu_cok3KvqUrRH6Sy4Q/viewform){: .button}
+
+## Story Features
+
+<div class="grid three-columns" markdown="1">
+
+<div class="card-decorated" markdown="1">
+![](/assets/jordyn-square.jpeg)
+[**Meet Jordyn, Environmental Design Student**](https://medium.com/science-and-us/humans-of-scicomm-jordyn-kosai-54b34d2110db)
+</div>
+
+<div class="card-decorated" markdown="1">
+![](/assets/sadie.jpeg)
+[**Meet Sadie, Science Performer**](https://medium.com/science-and-us/humans-of-scicomm-sadie-bowman-14757f7449df)
+</div>
+
+<div class="card-decorated" markdown="1">
+![](/assets/iris.png)
+[**Meet Iris, Science Illustrator**](https://medium.com/science-and-us/humans-of-scicomm-iris-fung-on-drawing-up-a-career-in-science-illustration-5b5b8a96a27f)
+</div>
+
+</div>
 
 ---
 

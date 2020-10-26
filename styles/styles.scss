@@ -241,6 +241,24 @@ img {
   margin: 1rem 0;
 }
 
+.card-decorated {
+  width: 100%;
+	align-items: center;
+	background-color: transparent;
+	box-shadow: 0.25rem 0.25rem 2rem 0rem rgba(0, 0, 0, 0.15);
+	border-radius: 1rem;
+  padding: 0 15%;
+  margin: 1rem 0;
+  text-align: center;
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+}
+
 @media (min-width: $tablet-breakpoint) {
   nav {
     padding-top: 2rem;
