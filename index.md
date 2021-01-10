@@ -17,13 +17,13 @@ Our newest project, *Humans of Scicomm*, is a [Medium collection](https://medium
 <div class="grid three-columns" markdown="1">
 
 <div class="card-decorated" markdown="1">
-![](/assets/jordyn-square.jpeg)
-[**Meet Jordyn, Environmental Design Student**](https://medium.com/science-and-us/humans-of-scicomm-jordyn-kosai-54b34d2110db)
+![](/assets/namrata.jpeg)
+[**Meet Namrata, Science Communicator**](https://medium.com/science-and-us/humans-of-scicomm-jordyn-kosai-54b34d2110db)
 </div>
 
 <div class="card-decorated" markdown="1">
-![](/assets/sadie.jpeg)
-[**Meet Sadie, Science Performer**](https://medium.com/science-and-us/humans-of-scicomm-sadie-bowman-14757f7449df)
+![](/assets/praveen.jpg)
+[**Meet Praveen, Pint of Science Founder**](https://medium.com/science-and-us/humans-of-scicomm-sadie-bowman-14757f7449df)
 </div>
 
 <div class="card-decorated" markdown="1">
