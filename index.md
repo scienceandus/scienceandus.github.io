@@ -17,18 +17,18 @@ Our newest project, *Humans of Scicomm*, is a [Medium collection](https://medium
 <div class="grid three-columns" markdown="1">
 
 <div class="card-decorated" markdown="1">
+![](/assets/sheeva.jpeg)
+[**Meet Sheeva, Science Writer**](https://medium.com/science-and-us/humans-of-scicomm-sheeva-azma-on-crafting-a-career-in-science-writing-7190765d98ed)
+</div>
+
+<div class="card-decorated" markdown="1">
 ![](/assets/namrata.jpeg)
-[**Meet Namrata, Science Communicator**](https://medium.com/science-and-us/humans-of-scicomm-jordyn-kosai-54b34d2110db)
+[**Meet Namrata, Science Communicator**](https://medium.com/science-and-us/humans-of-scicomm-dr-namrata-sengupta-on-becoming-a-scientist-and-science-communicator-fc840fd38814)
 </div>
 
 <div class="card-decorated" markdown="1">
 ![](/assets/praveen.jpg)
-[**Meet Praveen, Pint of Science Founder**](https://medium.com/science-and-us/humans-of-scicomm-sadie-bowman-14757f7449df)
-</div>
-
-<div class="card-decorated" markdown="1">
-![](/assets/iris.png)
-[**Meet Iris, Science Illustrator**](https://medium.com/science-and-us/humans-of-scicomm-iris-fung-on-drawing-up-a-career-in-science-illustration-5b5b8a96a27f)
+[**Meet Praveen, Pint of Science Founder**](https://medium.com/science-and-us/pint-of-science-dr-praveen-paul-on-founding-the-global-festival-72ef1257d7ed)
 </div>
 
 </div>
