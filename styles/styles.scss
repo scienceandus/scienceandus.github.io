@@ -342,6 +342,9 @@ hr {
 
 .social-icon {
   display: inline-block;
+  img {
+    border-radius: 20%;
+  }
 }
 
 .social-icon img {
