@@ -1,14 +1,18 @@
 ---
 title: Home
-header_text: Go beyond “STEM vs humanities” & make projects you’re proud of
+header_text: Help us make science communication accessible to students
 show_header_button: true
-button_url: /community/
-button_text: Join our community
+button_url: /join/
+button_text: Apply to join Science and Us
+---
+
+<img src="assets/red_exc_point.png" style="display:inline;width:1em; margin-right:0.5em;vertical-align:middle;" alt="!">As of July 11, 2021, our team email (team@scienceandus.org) is down. In the meantime, please contact us through the webchat at the bottom of the page.
+
 ---
 
 # Humans of Scicomm
 
-Our newest project, *Humans of Scicomm*, is a [Medium collection](https://medium.com/science-and-us) and platform for sharing untold stories of science communicators. We're speaking to experts about the challenges they've faced entering the field due to their identities. If you're interested in sharing your story, fill out our interest form below.
+*Humans of Scicomm* is a [Medium collection](https://medium.com/science-and-us) and platform for sharing untold stories of science communicators. We're speaking to experts about the challenges they've faced entering the field due to their identities. If you're interested in sharing your story, fill out our interest form below.
 
 [Share your story](https://docs.google.com/forms/d/e/1FAIpQLSewD2UDBjMEK_WoxJRK2SQvpInyvQjTu_cok3KvqUrRH6Sy4Q/viewform){: .button}
 
