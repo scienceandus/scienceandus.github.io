@@ -1,9 +1,9 @@
 ---
 title: Puloma Bishnu
 name: Puloma Bishnu
-role: Organizer
+role: Advisor
 photo_path: "/assets/puloma.png"
 linkedin_url: 
-ordering_priority: 100
+ordering_priority: 1000
 ---
 
