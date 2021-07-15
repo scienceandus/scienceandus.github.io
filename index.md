@@ -6,10 +6,6 @@ button_url: /join/
 button_text: Apply to join Science and Us
 ---
 
-<img src="assets/red_exc_point.png" style="display:inline;width:1em; margin-right:0.5em;vertical-align:middle;" alt="!">As of July 11, 2021, our team email (team@scienceandus.org) is down. In the meantime, please contact us through the webchat at the bottom of the page.
-
----
-
 # Humans of Scicomm
 
 *Humans of Scicomm* is a [Medium collection](https://medium.com/science-and-us) and platform for sharing untold stories of science communicators. We're speaking to experts about the challenges they've faced entering the field due to their identities. If you're interested in sharing your story, fill out our interest form below.
