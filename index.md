@@ -1,11 +1,11 @@
 ---
 title: Home
-header_text: Help us make science communication accessible to students
+header_text: Go beyond “STEM vs humanities” & make projects you’re proud of
 show_header_button: true
-button_url: /join/
-button_text: Apply to join Science and Us
----
+button_url: https://discord.gg/77as7RPWnh
+button_text: Join our community
 
+---
 # Humans of Scicomm
 
 *Humans of Scicomm* is a [Medium collection](https://medium.com/science-and-us) and platform for sharing untold stories of science communicators. We're speaking to experts about the challenges they've faced entering the field due to their identities. If you're interested in sharing your story, fill out our interest form below.
