@@ -1,7 +1,5 @@
 ---
----
 
----
 label: Team Member
 hide_body: true
 fields:
@@ -25,3 +23,4 @@ fields:
   description: Lower numbers get displayed first. This is mainly for putting director(s)
     first, everyone else in the middle, and advisor(s) last.
   default: 10
+---
