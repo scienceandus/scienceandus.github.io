@@ -1,7 +1,7 @@
 ---
 title: Harsheni Sudakar
 name: Harsheni Sudakar
-role: Organizer
+role: Co-Director
 photo_path: "/assets/harsheni.jpg"
 linkedin_url: 
 ordering_priority: "2"
