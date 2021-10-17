@@ -1,7 +1,7 @@
 ---
 ordering_priority: 10
 name: Harsheni Sudakar
-role: Co-Director
+role: Communications Coordinator
 photo_path: "/assets/harsheni.jpg"
 linkedin_url: ''
 
