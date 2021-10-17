@@ -4,6 +4,5 @@ name: Phoebe Han
 role: Organizer
 photo_path: "/assets/phoebe.jpeg"
 linkedin_url: ''
-published: false
 
 ---
