@@ -1,10 +1,10 @@
 ---
-title: Parin Shaik-(copy)
-name: Parin Shaik
+title: Harsheni Sudakar
+name: Harsheni Sudakar
 role: Co-Director
-photo_path: "/assets/parin.png"
-linkedin_url: https://www.linkedin.com/in/parinsk/
-ordering_priority: "1"
+photo_path: "/assets/harsheni.jpg"
+linkedin_url: ''
+ordering_priority: "10"
 published: false
 
 ---
