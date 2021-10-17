@@ -5,5 +5,6 @@ role: Advisor
 photo_path: "/assets/paige.jpg"
 linkedin_url: http://linkedin.com/in/pcy
 ordering_priority: "100000"
+published: false
 
 ---
