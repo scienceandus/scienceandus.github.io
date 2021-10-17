@@ -23,6 +23,7 @@ fields:
     first, everyone else in the middle, and advisor(s) last.
   default: 10
 pages:
+- _team_members/Ana.md
 - _team_members/Harsheni Sudakar.md
 - _team_members/Parin Shaik.md
 - _team_members/Tony Wang.md
