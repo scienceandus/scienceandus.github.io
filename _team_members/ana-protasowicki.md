@@ -5,5 +5,6 @@ role: Marketing Manager
 photo_path: "/assets/ana.jpg"
 linkedin_url: 
 ordering_priority: "100"
+published: false
 
 ---
