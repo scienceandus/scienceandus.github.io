@@ -4,6 +4,5 @@ name: Tony Wang
 role: Organizer
 photo_path: "/assets/tony.png"
 linkedin_url: ''
-published: false
 
 ---
